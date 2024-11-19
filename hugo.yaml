@@ -1,0 +1,251 @@
+baseURL: "https://hrishikkarora.github.io/"
+languageCode: "en-us"
+title: "Hrishik's Portfolio"
+theme: hugo-profile
+publishDir: "docs"
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+pagination:
+  pagerSize: 5
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Hrisik's Portfolio"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.jpg"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Hrisik's Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+      disableGallery : true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Hrishik Arora"
+    subtitle: "Unity Game Developer | Gameplay Programmer - Freelancer"
+    content: "A passionate Unity developer dedicated to crafting engaging, optimized, and dynamic game experiences. Leveraging advanced game development techniques, I bring games to life with smooth performance, immersive visuals, and intuitive controls."
+    image: /fav.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "/HrishikArora.pdf"
+      download: false
+      newPage: true
+    socialLinks:
+ 
+      customIcons:
+        - icon: /LinkedInIcon.png
+          url: "https://www.linkedin.com/in/hrishikarora/"
+
+  
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Song Beat Music Game  
+        content: Introducing Song Beat! A rhythm game that makes tapping beats entertaining.
+                 Tap and let the music flow between your fingers—it's that simple! Challenge yourself while immersing in the joy of music. Join millions of players worldwide who have already chosen us.
+                 Follow the rhythm of your favorite songs. Tap and swipe to the beats to master your favorite tracks and experience them in a whole.
+        image: /images/projects/songbeat.png
+        link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.sb&hl=en_US&gl=US&pli=1
+   
+        badges:
+          - "Commercial Project"
+
+        
+
+      - title: Desibeats Indian Music Game
+        content: Welcome to Desi Beats! 
+                Get ready for a rhythm-based music game that brings excitement to your fingertips. 
+                Whether you’re a seasoned pro or just starting out, Desi Beats offers a thrilling experience for Indian music fans of all ages, from 8 to 50 and beyond.
+                Tap, bounce, and groove to the beat of the latest Indian music hits like never before!
+        image: /images/projects/DesiBeat.png  
+        link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.sb&hl=en_US&gl=US&pli=1
+
+        badges:
+          - "Commercial Project"
+
+
+      - title: Combat System
+        content: Created 3-D TPP RPG combat system incorporating Enemy AI, Animation events, combat dodging, counters and finishers
+        image: /images/projects/CombatSystem.gif  
+        link1 : "/combat-system/"
+
+        badges:
+          - "Personal Project"
+
+
+      - title: Delirium Odyssey
+        content: Created a 3-D multiplayer obstacle race course game with active ragdoll using Unity’s Netcode For GameObjects, Relay and Lobby
+        image: /images/projects/DeliriumOdyssey.gif
+        link1 : "delirium-odyssey/"
+       
+        badges:
+          - "Personal Project"
+
+
+      - title: A* path finding algorithm
+        content: Implemented my own A* pathfinding algorithm in C#(Unity). Basically A* algorithm will find the shortest distance to destination taking obstacles into account. My mouse click on top right side of the screen sets destination.I am ideating to create a game out of this.
+        image: /images/projects/Astar.gif
+        link1 : "/astar-pathfinding/"
+        badges:
+          - "Personal Project"
+
+      - title: Car Arcade
+        content: Implemented my own A* pathfinding algorithm in C#(Unity). Basically A* algorithm will find the shortest distance to destination taking obstacles into account. My mouse click on top right side of the screen sets destination.I am ideating to create a game out of this.
+        image: /images/projects/CarPark.gif
+        link1 : "/car-arcade/"
+        badges:
+          - "Personal Project"
+          - "Work In Progress"
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:hrishik.arora@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+  
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
