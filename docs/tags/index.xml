@@ -2,38 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hrishik&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://hrishikkarora.github.io/tags/</link>
     <description>Recent content in Tags on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2024 23:29:21 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hrishikkarora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arcade</title>
-      <link>http://localhost:1313/tags/arcade/</link>
+      <title>Arcade Game</title>
+      <link>https://hrishikkarora.github.io/tags/arcade-game/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/arcade/</guid>
+      <guid>https://hrishikkarora.github.io/tags/arcade-game/</guid>
       <description></description>
     </item>
     <item>
-      <title>Game Development</title>
-      <link>http://localhost:1313/tags/game-development/</link>
+      <title>Car Controller</title>
+      <link>https://hrishikkarora.github.io/tags/car-controller/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/game-development/</guid>
+      <guid>https://hrishikkarora.github.io/tags/car-controller/</guid>
       <description></description>
     </item>
     <item>
       <title>Physics</title>
-      <link>http://localhost:1313/tags/physics/</link>
+      <link>https://hrishikkarora.github.io/tags/physics/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/physics/</guid>
+      <guid>https://hrishikkarora.github.io/tags/physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Toon Style</title>
+      <link>https://hrishikkarora.github.io/tags/toon-style/</link>
+      <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/toon-style/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity</title>
-      <link>http://localhost:1313/tags/unity/</link>
+      <link>https://hrishikkarora.github.io/tags/unity/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/unity/</guid>
+      <guid>https://hrishikkarora.github.io/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Ragdoll</title>
+      <link>https://hrishikkarora.github.io/tags/active-ragdoll/</link>
+      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/active-ragdoll/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiplayer</title>
+      <link>https://hrishikkarora.github.io/tags/multiplayer/</link>
+      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/multiplayer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netcode</title>
+      <link>https://hrishikkarora.github.io/tags/netcode/</link>
+      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/netcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Obstacle Course</title>
+      <link>https://hrishikkarora.github.io/tags/obstacle-course/</link>
+      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/obstacle-course/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://hrishikkarora.github.io/tags/ai/</link>
+      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Animation Events</title>
+      <link>https://hrishikkarora.github.io/tags/animation-events/</link>
+      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/animation-events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Combat System</title>
+      <link>https://hrishikkarora.github.io/tags/combat-system/</link>
+      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/combat-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RPG</title>
+      <link>https://hrishikkarora.github.io/tags/rpg/</link>
+      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/rpg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A* Algorithm</title>
+      <link>https://hrishikkarora.github.io/tags/a-algorithm/</link>
+      <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/a-algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>https://hrishikkarora.github.io/tags/c%23/</link>
+      <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pathfinding</title>
+      <link>https://hrishikkarora.github.io/tags/pathfinding/</link>
+      <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
+      <guid>https://hrishikkarora.github.io/tags/pathfinding/</guid>
       <description></description>
     </item>
   </channel>
