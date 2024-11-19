@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pathfinding on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikkarora.github.io/tags/pathfinding/</link>
+    <link>http://localhost:1313/tags/pathfinding/</link>
     <description>Recent content in Pathfinding on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Sep 2022 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikkarora.github.io/tags/pathfinding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pathfinding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A* Pathfinding Algorithm</title>
-      <link>https://hrishikkarora.github.io/astar-pathfinding/</link>
+      <link>http://localhost:1313/astar-pathfinding/</link>
       <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikkarora.github.io/astar-pathfinding/</guid>
+      <guid>http://localhost:1313/astar-pathfinding/</guid>
       <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Platform: PC (Unity)&lt;br&gt;&#xA;Technologies Used: Unity, C#, A* Pathfinding, Algorithms&lt;br&gt;&#xA;Duration: 1 months &lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Implemented my own A* pathfinding algorithm in C#(Unity). Basically A* algorithm will find the shortest distance to destination taking obstacles into account. My mouse click on top right side of the screen sets destination.I am ideating to create a game out of this.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt; The algorithm calculates the shortest path on a grid, and the result is visualized by drawing the grid, the open and closed nodes, and the final path on the screen.&lt;/li&gt;&#xD;&#xA;&lt;li&gt; Obstacles can be placed within the grid to simulate real-world obstructions. The A* algorithm dynamically adjusts the path to avoid these obstacles while calculating the shortest route.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt;Gained an in-depth understanding of how the A pathfinding algorithm* works, especially in the context of visualizing each step in the process.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Developed the ability to break down complex algorithms into visual feedback, making them easier to understand and follow.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

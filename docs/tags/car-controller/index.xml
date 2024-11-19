@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Car Controller on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikkarora.github.io/tags/car-controller/</link>
+    <link>http://localhost:1313/tags/car-controller/</link>
     <description>Recent content in Car Controller on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2024 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikkarora.github.io/tags/car-controller/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/car-controller/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Car Arcade</title>
-      <link>https://hrishikkarora.github.io/car-arcade/</link>
+      <link>http://localhost:1313/car-arcade/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikkarora.github.io/car-arcade/</guid>
+      <guid>http://localhost:1313/car-arcade/</guid>
       <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre: Arcade &lt;br&gt;&#xA;Platform: PC (Unity)&lt;br&gt;&#xA;Technologies Used: Unity, C#, Animator, Physics, Toon Shader&lt;br&gt;&#xA;Duration: Currently in progress &lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The Arcade Car Park Game is a vibrant, toon-styled adventure where players take control of a toy car in an interactive car park brimming with excitement. Designed as a playful playground, the game features zones like the Stunt Zone for daring flips and jumps, the Bowling Area where players smash into oversized pins for satisfying chain reactions, and the Amusement Ride Zone filled with whimsical attractions like spinning carousels and mini roller coasters. The Destruction Zone adds an extra layer of chaos, allowing players to knock down structures and trigger spectacular chain reactions. With its colorful visuals, responsive controls, and dynamic physics, the game encourages exploration and experimentation, creating a fun and engaging experience for players of all ages.&lt;/p&gt;</description>
     </item>
   </channel>

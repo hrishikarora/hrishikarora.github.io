@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,7 +28,7 @@
 
 
 
-<meta property="og:url" content="https://hrishikkarora.github.io/combat-system/">
+<meta property="og:url" content="http://localhost:1313/combat-system/">
   <meta property="og:site_name" content="Hrishik&#39;s Portfolio">
   <meta property="og:title" content="Combat System">
   <meta property="og:description" content="Project Overview Genre: Action Platform: PC (Unity)
@@ -343,23 +343,23 @@ Duration: 2 months <br></p>
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
               
-              <li class="list-inline-item"><a href="https://hrishikkarora.github.io/tags/combat-system"
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/combat-system"
                 target="_blank"
               >Combat System</a></li>
               
-              <li class="list-inline-item"><a href="https://hrishikkarora.github.io/tags/rpg"
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/rpg"
                 target="_blank"
               >RPG</a></li>
               
-              <li class="list-inline-item"><a href="https://hrishikkarora.github.io/tags/ai"
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/ai"
                 target="_blank"
               >AI</a></li>
               
-              <li class="list-inline-item"><a href="https://hrishikkarora.github.io/tags/animation-events"
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/animation-events"
                 target="_blank"
               >Animation Events</a></li>
               
-              <li class="list-inline-item"><a href="https://hrishikkarora.github.io/tags/unity"
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/unity"
                 target="_blank"
               >Unity</a></li>
               
@@ -439,14 +439,10 @@ Duration: 2 months <br></p>
     
 </div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {

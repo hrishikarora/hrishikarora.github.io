@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RPG on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikkarora.github.io/tags/rpg/</link>
+    <link>http://localhost:1313/tags/rpg/</link>
     <description>Recent content in RPG on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Nov 2022 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikkarora.github.io/tags/rpg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/rpg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Combat System</title>
-      <link>https://hrishikkarora.github.io/combat-system/</link>
+      <link>http://localhost:1313/combat-system/</link>
       <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikkarora.github.io/combat-system/</guid>
+      <guid>http://localhost:1313/combat-system/</guid>
       <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre: Action &lt;br&gt;&#xA;Platform: PC (Unity)&lt;br&gt;&#xA;Technologies Used: Unity, C#, Animator, AI, Physics, State Machine&lt;br&gt;&#xA;Duration: 2 months &lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Combat System is a robust combat framework designed for third-person RPG games. It features a dynamic combat system, allowing players to engage in fluid melee combat with a variety of abilities such as dodging, countering, and performing finishing moves. The combat system is supported by enemy AI, ensuring that battles feel challenging and responsive. Additionally, the system uses animation events to synchronize character movements with combat actions, making the experience seamless and immersive.&lt;/p&gt;</description>
     </item>
   </channel>

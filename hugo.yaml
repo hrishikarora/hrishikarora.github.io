@@ -1,4 +1,4 @@
-baseURL: "https://hrishikkarora.github.io/"
+baseURL: "https://hrishikarora.github.io/"
 languageCode: "en-us"
 title: "Hrishik's Portfolio"
 theme: hugo-profile
@@ -66,6 +66,7 @@ params:
   animate: true
 
   theme:
+    defaultTheme: "dark"  
     # disableThemeToggle: true
     # defaultTheme: "light" # dark
 

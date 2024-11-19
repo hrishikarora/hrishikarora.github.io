@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multiplayer on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikkarora.github.io/tags/multiplayer/</link>
+    <link>http://localhost:1313/tags/multiplayer/</link>
     <description>Recent content in Multiplayer on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Jan 2023 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikkarora.github.io/tags/multiplayer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/multiplayer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delirium Odyssey</title>
-      <link>https://hrishikkarora.github.io/delirium-odyssey/</link>
+      <link>http://localhost:1313/delirium-odyssey/</link>
       <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikkarora.github.io/delirium-odyssey/</guid>
+      <guid>http://localhost:1313/delirium-odyssey/</guid>
       <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre:  Obstacle Course &lt;br&gt;&#xA;Platform: PC (Unity)&lt;br&gt;&#xA;Technologies Used: Unity, Netcode for GameObjects, Relay, Lobby, C#, Physics, Ragdoll&lt;br&gt;&#xA;Duration: 3 months &lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Created a 3-D multiplayer obstacle race course game with active ragdoll using Unity�s Netcode For GameObjects, Relay and Lobby&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt; Multiplayer: Real-time, synchronous gameplay using Unity�s Netcode for GameObjects, allowing multiple players to race against each other in the same world.&lt;/li&gt;&#xD;&#xA;&lt;li&gt; Obstacle Course: A challenging, dynamic race course filled with interactive obstacles, such as jumping platforms, rotating blades, and moving walls.&lt;/li&gt;&#xD;&#xA;&lt;li&gt; Active Ragdoll System: Players&#39; characters have an active ragdoll system that adds a layer of unpredictability to the game. Collisions with obstacles, falls, and jumps trigger ragdoll physics for more humorous and chaotic gameplay.&lt;/li&gt;&#xD;&#xA;&lt;li&gt; Unity Relay: Players can connect seamlessly through Unity�s Relay service, ensuring smooth and reliable networking even with varying player connection qualities.&lt;/li&gt;&#xD;&#xA;&lt;li&gt; Lobby System: Players can create and join games through a Lobby system, enabling matchmaking and easy navigation to multiplayer sessions.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt;Gained hands-on experience using Netcode for GameObjects to implement real-time multiplayer functionality and Relay for serverless matchmaking in Unity.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Learned how to work with active ragdoll physics and how to apply it to create humorous, dynamic character behavior in response to in-game events.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Developed skills in designing and creating multiplayer game systems, including player lobbies, matchmaking, and synchronization of player actions across the network.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
