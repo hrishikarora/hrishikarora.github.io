@@ -200,7 +200,7 @@ params:
           - "Personal Project"
 
       - title: Car Arcade
-        content: Implemented my own A* pathfinding algorithm in C#(Unity). Basically A* algorithm will find the shortest distance to destination taking obstacles into account. My mouse click on top right side of the screen sets destination.I am ideating to create a game out of this.
+        content: The Arcade Car Park Game is a vibrant, toon-styled adventure where players take control of a toy car in an interactive car park brimming with excitement. Designed as a playful playground, the game features zones like the Stunt Zone for daring flips and jumps, the Bowling Area where players smash into oversized pins for satisfying chain reactions, and the Amusement Ride Zone filled with whimsical attractions like spinning carousels and mini roller coasters. The Destruction Zone adds an extra layer of chaos, allowing players to knock down structures and trigger spectacular chain reactions. With its colorful visuals, responsive controls, and dynamic physics, the game encourages exploration and experimentation, creating a fun and engaging experience for players of all ages.
         image: /images/projects/CarPark.gif
         link1 : "/car-arcade/"
         badges:
