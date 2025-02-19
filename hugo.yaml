@@ -162,11 +162,11 @@ params:
 
       - title: Desibeats Indian Music Game
         content: Contributed to the development of 'Desi Beats,' a rhythm-based mobile game by Hungama Game Studio. 
-        Focused on designing responsive tap and bounce mechanics tailored to Indian music tracks. 
-        Worked on performance optimization to ensure smooth gameplay across devices. 
-        Integrated engaging animations, audio effects, and intuitive UI elements. 
-        Assisted in debugging and refining interactions for a seamless user experience. 
-        Collaborated with design and audio teams to align gameplay with the musical theme
+                 Focused on designing responsive tap and bounce mechanics tailored to Indian music tracks. 
+                 Worked on performance optimization to ensure smooth gameplay across devices. 
+                 Integrated engaging animations, audio effects, and intuitive UI elements. 
+                 Assisted in debugging and refining interactions for a seamless user experience. 
+                 Collaborated with design and audio teams to align gameplay with the musical theme
         image: /images/projects/DesiBeat.png  
         link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.desibeats&hl=en_US&gl=US
 
@@ -200,7 +200,7 @@ params:
           - "Personal Project"
 
       - title: Car Arcade
-        content: The Arcade Car Park Game is a vibrant, toon-styled adventure where players take control of a toy car in an interactive car park brimming with excitement. Designed as a playful playground, the game features zones like the Stunt Zone for daring flips and jumps, the Bowling Area where players smash into oversized pins for satisfying chain reactions, and the Amusement Ride Zone filled with whimsical attractions like spinning carousels and mini roller coasters. The Destruction Zone adds an extra layer of chaos, allowing players to knock down structures and trigger spectacular chain reactions. With its colorful visuals, responsive controls, and dynamic physics, the game encourages exploration and experimentation, creating a fun and engaging experience for players of all ages.
+        content: The Arcade Car Park Game is a vibrant, toon-styled adventure where players control a toy car in a lively car park. Featuring stunt jumps, bowling challenges, amusement rides, and a destruction zone, the game encourages exploration with dynamic physics, colorful visuals, and responsive controls for a fun and engaging experience.
         image: /images/projects/CarPark.gif
         link1 : "/car-arcade/"
         badges:

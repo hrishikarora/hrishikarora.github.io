@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikarora.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2024 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikarora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arcade Game</title>
-      <link>https://hrishikarora.github.io/tags/arcade-game/</link>
+      <link>http://localhost:1313/tags/arcade-game/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/arcade-game/</guid>
+      <guid>http://localhost:1313/tags/arcade-game/</guid>
       <description></description>
     </item>
     <item>
       <title>Car Controller</title>
-      <link>https://hrishikarora.github.io/tags/car-controller/</link>
+      <link>http://localhost:1313/tags/car-controller/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/car-controller/</guid>
+      <guid>http://localhost:1313/tags/car-controller/</guid>
       <description></description>
     </item>
     <item>
       <title>Physics</title>
-      <link>https://hrishikarora.github.io/tags/physics/</link>
+      <link>http://localhost:1313/tags/physics/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/physics/</guid>
+      <guid>http://localhost:1313/tags/physics/</guid>
       <description></description>
     </item>
     <item>
       <title>Toon Style</title>
-      <link>https://hrishikarora.github.io/tags/toon-style/</link>
+      <link>http://localhost:1313/tags/toon-style/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/toon-style/</guid>
+      <guid>http://localhost:1313/tags/toon-style/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity</title>
-      <link>https://hrishikarora.github.io/tags/unity/</link>
+      <link>http://localhost:1313/tags/unity/</link>
       <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/unity/</guid>
+      <guid>http://localhost:1313/tags/unity/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Ragdoll</title>
-      <link>https://hrishikarora.github.io/tags/active-ragdoll/</link>
+      <link>http://localhost:1313/tags/active-ragdoll/</link>
       <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/active-ragdoll/</guid>
+      <guid>http://localhost:1313/tags/active-ragdoll/</guid>
       <description></description>
     </item>
     <item>
       <title>Multiplayer</title>
-      <link>https://hrishikarora.github.io/tags/multiplayer/</link>
+      <link>http://localhost:1313/tags/multiplayer/</link>
       <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/multiplayer/</guid>
+      <guid>http://localhost:1313/tags/multiplayer/</guid>
       <description></description>
     </item>
     <item>
       <title>Netcode</title>
-      <link>https://hrishikarora.github.io/tags/netcode/</link>
+      <link>http://localhost:1313/tags/netcode/</link>
       <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/netcode/</guid>
+      <guid>http://localhost:1313/tags/netcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Obstacle Course</title>
-      <link>https://hrishikarora.github.io/tags/obstacle-course/</link>
+      <link>http://localhost:1313/tags/obstacle-course/</link>
       <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/obstacle-course/</guid>
+      <guid>http://localhost:1313/tags/obstacle-course/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://hrishikarora.github.io/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Animation Events</title>
-      <link>https://hrishikarora.github.io/tags/animation-events/</link>
+      <link>http://localhost:1313/tags/animation-events/</link>
       <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/animation-events/</guid>
+      <guid>http://localhost:1313/tags/animation-events/</guid>
       <description></description>
     </item>
     <item>
       <title>Combat System</title>
-      <link>https://hrishikarora.github.io/tags/combat-system/</link>
+      <link>http://localhost:1313/tags/combat-system/</link>
       <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/combat-system/</guid>
+      <guid>http://localhost:1313/tags/combat-system/</guid>
       <description></description>
     </item>
     <item>
       <title>RPG</title>
-      <link>https://hrishikarora.github.io/tags/rpg/</link>
+      <link>http://localhost:1313/tags/rpg/</link>
       <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/rpg/</guid>
+      <guid>http://localhost:1313/tags/rpg/</guid>
       <description></description>
     </item>
     <item>
       <title>A* Algorithm</title>
-      <link>https://hrishikarora.github.io/tags/a-algorithm/</link>
+      <link>http://localhost:1313/tags/a-algorithm/</link>
       <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/a-algorithm/</guid>
+      <guid>http://localhost:1313/tags/a-algorithm/</guid>
       <description></description>
     </item>
     <item>
       <title>C#</title>
-      <link>https://hrishikarora.github.io/tags/c%23/</link>
+      <link>http://localhost:1313/tags/c%23/</link>
       <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/c%23/</guid>
+      <guid>http://localhost:1313/tags/c%23/</guid>
       <description></description>
     </item>
     <item>
       <title>Pathfinding</title>
-      <link>https://hrishikarora.github.io/tags/pathfinding/</link>
+      <link>http://localhost:1313/tags/pathfinding/</link>
       <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/pathfinding/</guid>
+      <guid>http://localhost:1313/tags/pathfinding/</guid>
       <description></description>
     </item>
   </channel>
