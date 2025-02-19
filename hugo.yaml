@@ -161,12 +161,14 @@ params:
         
 
       - title: Desibeats Indian Music Game
-        content: Welcome to Desi Beats! 
-                Get ready for a rhythm-based music game that brings excitement to your fingertips. 
-                Whether you’re a seasoned pro or just starting out, Desi Beats offers a thrilling experience for Indian music fans of all ages, from 8 to 50 and beyond.
-                Tap, bounce, and groove to the beat of the latest Indian music hits like never before!
+        content: Contributed to the development of 'Desi Beats,' a rhythm-based mobile game by Hungama Game Studio. 
+        Focused on designing responsive tap and bounce mechanics tailored to Indian music tracks. 
+        Worked on performance optimization to ensure smooth gameplay across devices. 
+        Integrated engaging animations, audio effects, and intuitive UI elements. 
+        Assisted in debugging and refining interactions for a seamless user experience. 
+        Collaborated with design and audio teams to align gameplay with the musical theme
         image: /images/projects/DesiBeat.png  
-        link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.sb&hl=en_US&gl=US&pli=1
+        link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.desibeats&hl=en_US&gl=US
 
         badges:
           - "Commercial Project"
