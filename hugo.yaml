@@ -147,9 +147,11 @@ params:
     # title: "Custom Name"
     items:
       - title: Song Beat Music Game  
-        content: Introducing Song Beat! A rhythm game that makes tapping beats entertaining.
-                 Tap and let the music flow between your fingers—it's that simple! Challenge yourself while immersing in the joy of music. Join millions of players worldwide who have already chosen us.
-                 Follow the rhythm of your favorite songs. Tap and swipe to the beats to master your favorite tracks and experience them in a whole.
+        content: Worked on core gameplay mechanics for 'Song Beat,' a rhythm-based mobile game by Hungama Game Studio. 
+                  Designed tap and swipe controls synchronized with music tracks for smooth interaction. 
+                  Optimized performance for better gameplay across devices. Integrated animations, sound effects, and user-friendly UI elements. 
+                  Conducted debugging and performance profiling to improve stability. 
+                  Collaborated with design and audio teams to enhance the overall experience.
         image: /images/projects/songbeat.png
         link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.sb&hl=en_US&gl=US&pli=1
    
