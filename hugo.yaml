@@ -147,11 +147,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Song Beat Music Game  
-        content: Worked on core gameplay mechanics for 'Song Beat,' a rhythm-based mobile game by Hungama Game Studio. 
-                  Designed tap and swipe controls synchronized with music tracks for smooth interaction. 
-                  Optimized performance for better gameplay across devices. Integrated animations, sound effects, and user-friendly UI elements. 
-                  Conducted debugging and performance profiling to improve stability. 
-                  Collaborated with design and audio teams to enhance the overall experience.
+        content: Provided key contributions to the core gameplay mechanics of Song Beat, a rhythm-based mobile game by Hungama Game Studio. Assisted in refining tap and swipe controls to ensure seamless synchronization with music tracks. Offered optimizations to improve performance across multiple devices. Contributed to integrating animations, sound effects, and user-friendly UI elements. Helped debug and profile performance to enhance stability. Collaborated closely with team members to refine the overall gameplay experience.
         image: /images/projects/songbeat.png
         link1: https://play.google.com/store/apps/details?id=com.hungamagamestudio.sb&hl=en_US&gl=US&pli=1
    
