@@ -130,16 +130,38 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "/HrishikArora.pdf"
+      name: "LinkedIn"
+      url: "https://www.linkedin.com/in/hrishikarora/"
       download: false
       newPage: true
-    socialLinks:
- 
-      customIcons:
-        - icon: /LinkedInIcon.png
-          url: "https://www.linkedin.com/in/hrishikarora/"
+   
+    services:
+      - category: "Game Development"
+        items:
+          - "2D/3D Game Development"
+          - "Mobile Game Development (Android)"
+          - "PC & Console Game Development"
+          - "Multiplayer & Networking"
+          - "AR Development"
+    
+      - category: "Game Assets & Mechanics"
+        items:
+          - "AI Development"
+          - "Custom Game Mechanics"
+          - "Physics Mechanics"
+          - "Performance Optimization"
+          - "Bug Fixing & Debugging"
+          - 
+      - category: "Optimization & Deployment"
+        items:
+          - "Monetization (Ads & In-App Purchases)"
+          - "Publishing to Google Play Store"
+          - "Post-Launch Support & Updates"
+          - "And many more"
 
+  
+  
+  
   
   # projects
   projects:

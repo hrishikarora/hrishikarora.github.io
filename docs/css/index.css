@@ -180,7 +180,10 @@ header .navbar.animate {
     text-decoration: none;
     color: var(--text-link-color) !important;
 }
-
+#hero services
+{
+    
+}
 #hero .hero-content > a::after {
     content: "";
     display: block;
