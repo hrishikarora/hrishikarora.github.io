@@ -169,7 +169,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Song Beat Music Game  
-        content: Provided key contributions to the core gameplay mechanics of Song Beat, a rhythm-based mobile game by Hungama Game Studio. Assisted in refining tap and swipe controls to ensure seamless synchronization with music tracks. Offered optimizations to improve performance across multiple devices. Contributed to integrating animations, sound effects, and user-friendly UI elements. Helped debug and profile performance to enhance stability. Collaborated closely with team members to refine the overall gameplay experience.
+        content: Contributed to the development of Song Beat, a rhythm-based mobile game by Hungama Game Studio, by implementing optimizations to enhance performance across diverse devices. I also integrated animations, sound effects, and user-friendly UI elements, and debugged and profiled performance to bolster stability. This work involved close collaboration with the team to refine the overall player experience.
         image: /images/projects/songbeat.gif
         link1: "/song-beat/"
    
@@ -179,7 +179,7 @@ params:
         
 
       - title: Desibeats Indian Music Game
-        content: Provided valuable contributions to the development of Desi Beats, a rhythm-based mobile game by Hungama Game Studio. Assisted in refining tap and bounce mechanics tailored to Indian music tracks. Suggested performance optimizations to enhance smooth gameplay across devices. Contributed to integrating engaging animations, audio effects, and intuitive UI elements. Supported debugging and refining interactions for a seamless user experience. Collaborated with team members to align gameplay with the musical theme.
+        content: Provided valuable contributions to the development of Desi Beats, a rhythm-based mobile game by Hungama Game Studio. Suggested performance optimizations to enhance smooth gameplay across devices. Contributed to integrating engaging animations, audio effects, and intuitive UI elements. Supported debugging and refining interactions for a seamless user experience.        
         image: /images/projects/desibeat.gif  
         link1: "/desi-beat/"
 

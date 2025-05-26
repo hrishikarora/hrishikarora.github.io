@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Song Beat on Hrishik&#39;s Portfolio</title>
-    <link>http://localhost:1313/song-beat/</link>
+    <link>https://hrishikarora.github.io/song-beat/</link>
     <description>Recent content in Song Beat on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/song-beat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hrishikarora.github.io/song-beat/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
