@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gameplay on Hrishik&#39;s Portfolio</title>
+    <link>hrishikarora.github.io/tags/gameplay/</link>
+    <description>Recent content in Gameplay on Hrishik&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2025 22:53:58 +0530</lastBuildDate>
+    <atom:link href="hrishikarora.github.io/tags/gameplay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexa Coin</title>
+      <link>hrishikarora.github.io/hexa-coin/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/hexa-coin/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre: Puzzle based game &lt;br&gt;&#xA;Platform: Mobile (Android/IOS)&lt;br&gt;&#xA;Technologies Used: Unity, C#, Mobile Optimization&lt;br&gt;&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bbumgames.hexacoin&amp;hl=en_IN&#34;&gt;Play Store Link&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Improved Hexa Coin (Android, VOODOO), a live puzzle game with 100K+ downloads, by delivering 8+ post-launch updates that enhanced gameplay feel, progression, and user experience in collaboration with BeachBum and VOODOO teams. Implemented key systems like Revive, Hint, Target, and Quick Revive to boost re-engagement, while integrating Unity Addressables and VOODOO event tracking for dynamic asset loading, real-time economy monitoring, and seamless live content updates.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

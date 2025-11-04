@@ -1,4 +1,4 @@
-baseURL: "https://hrishikarora.github.io/"
+baseURL: "hrishikarora.github.io"
 languageCode: "en-us"
 title: "Hrishik's Portfolio"
 theme: hugo-profile
@@ -168,6 +168,14 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Hexa Coin  
+        content: Improved Hexa Coin (Android, VOODOO), a live puzzle game with 100K+ downloads, by delivering 8+ post-launch updates that enhanced gameplay feel, progression, and user experience in collaboration with BeachBum and VOODOO teams. Implemented key systems like Revive, Hint, Target, and Quick Revive to boost re-engagement, while integrating Unity Addressables and VOODOO event tracking for dynamic asset loading, real-time economy monitoring, and seamless live content updates.
+        image: /images/projects/HexaCoin.gif
+        link1: "/hexa-coin/"
+   
+        badges:
+          - "Commercial Project"
+
       - title: Song Beat Music Game  
         content: Contributed to the development of Song Beat, a rhythm-based mobile game by Hungama Game Studio, by implementing optimizations to enhance performance across diverse devices. I also integrated animations, sound effects, and user-friendly UI elements, and debugged and profiled performance to bolster stability. This work involved close collaboration with the team to refine the overall player experience.
         image: /images/projects/songbeat.gif

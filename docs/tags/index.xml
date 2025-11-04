@@ -2,150 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikarora.github.io/tags/</link>
+    <link>hrishikarora.github.io/tags/</link>
     <description>Recent content in Tags on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2024 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikarora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jun 2025 22:53:58 +0530</lastBuildDate>
+    <atom:link href="hrishikarora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arcade Game</title>
-      <link>https://hrishikarora.github.io/tags/arcade-game/</link>
-      <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/arcade-game/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Car Controller</title>
-      <link>https://hrishikarora.github.io/tags/car-controller/</link>
-      <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/car-controller/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Physics</title>
-      <link>https://hrishikarora.github.io/tags/physics/</link>
-      <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/physics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Toon Style</title>
-      <link>https://hrishikarora.github.io/tags/toon-style/</link>
-      <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/toon-style/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unity</title>
-      <link>https://hrishikarora.github.io/tags/unity/</link>
-      <pubDate>Tue, 05 Nov 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/unity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gameplay Mechanics</title>
-      <link>https://hrishikarora.github.io/tags/gameplay-mechanics/</link>
-      <pubDate>Fri, 10 May 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/gameplay-mechanics/</guid>
+      <title>Gameplay</title>
+      <link>hrishikarora.github.io/tags/gameplay/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/gameplay/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile</title>
-      <link>https://hrishikarora.github.io/tags/mobile/</link>
-      <pubDate>Fri, 10 May 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/mobile/</guid>
+      <link>hrishikarora.github.io/tags/mobile/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/mobile/</guid>
       <description></description>
     </item>
     <item>
-      <title>Music</title>
-      <link>https://hrishikarora.github.io/tags/music/</link>
-      <pubDate>Fri, 10 May 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/music/</guid>
+      <title>Optimization</title>
+      <link>hrishikarora.github.io/tags/optimization/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
-      <title>Rhythm Game</title>
-      <link>https://hrishikarora.github.io/tags/rhythm-game/</link>
-      <pubDate>Fri, 10 May 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/rhythm-game/</guid>
+      <title>Puzzle Game</title>
+      <link>hrishikarora.github.io/tags/puzzle-game/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/puzzle-game/</guid>
       <description></description>
     </item>
     <item>
-      <title>Active Ragdoll</title>
-      <link>https://hrishikarora.github.io/tags/active-ragdoll/</link>
-      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/active-ragdoll/</guid>
+      <title>Unity</title>
+      <link>hrishikarora.github.io/tags/unity/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/unity/</guid>
       <description></description>
     </item>
     <item>
-      <title>Multiplayer</title>
-      <link>https://hrishikarora.github.io/tags/multiplayer/</link>
-      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/multiplayer/</guid>
+      <title>Example</title>
+      <link>hrishikarora.github.io/tags/example/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/example/</guid>
       <description></description>
     </item>
     <item>
-      <title>Netcode</title>
-      <link>https://hrishikarora.github.io/tags/netcode/</link>
-      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/netcode/</guid>
+      <title>Markdown Syntax</title>
+      <link>hrishikarora.github.io/tags/markdown-syntax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/markdown-syntax/</guid>
       <description></description>
     </item>
     <item>
-      <title>Obstacle Course</title>
-      <link>https://hrishikarora.github.io/tags/obstacle-course/</link>
-      <pubDate>Sun, 15 Jan 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/obstacle-course/</guid>
+      <title>Mathjax</title>
+      <link>hrishikarora.github.io/tags/mathjax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/mathjax/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI</title>
-      <link>https://hrishikarora.github.io/tags/ai/</link>
-      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/ai/</guid>
+      <title>Sample</title>
+      <link>hrishikarora.github.io/tags/sample/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/sample/</guid>
       <description></description>
     </item>
     <item>
-      <title>Animation Events</title>
-      <link>https://hrishikarora.github.io/tags/animation-events/</link>
-      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/animation-events/</guid>
+      <title>Emoji Support</title>
+      <link>hrishikarora.github.io/tags/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/emoji-support/</guid>
       <description></description>
     </item>
     <item>
-      <title>Combat System</title>
-      <link>https://hrishikarora.github.io/tags/combat-system/</link>
-      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/combat-system/</guid>
+      <title>Placeholder Text</title>
+      <link>hrishikarora.github.io/tags/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/placeholder-text/</guid>
       <description></description>
     </item>
     <item>
-      <title>RPG</title>
-      <link>https://hrishikarora.github.io/tags/rpg/</link>
-      <pubDate>Sun, 20 Nov 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/rpg/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>A* Algorithm</title>
-      <link>https://hrishikarora.github.io/tags/a-algorithm/</link>
-      <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/a-algorithm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C#</title>
-      <link>https://hrishikarora.github.io/tags/c%23/</link>
-      <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/c%23/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pathfinding</title>
-      <link>https://hrishikarora.github.io/tags/pathfinding/</link>
-      <pubDate>Mon, 05 Sep 2022 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/tags/pathfinding/</guid>
+      <title>Rich Content</title>
+      <link>hrishikarora.github.io/tags/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <guid>hrishikarora.github.io/tags/rich-content/</guid>
       <description></description>
     </item>
   </channel>

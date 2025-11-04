@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on Hrishik&#39;s Portfolio</title>
-    <link>https://hrishikarora.github.io/tags/mobile/</link>
+    <link>hrishikarora.github.io/tags/mobile/</link>
     <description>Recent content in Mobile on Hrishik&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 May 2024 23:29:21 +0530</lastBuildDate>
-    <atom:link href="https://hrishikarora.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jun 2025 22:53:58 +0530</lastBuildDate>
+    <atom:link href="hrishikarora.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Desi Beats</title>
-      <link>https://hrishikarora.github.io/desi-beat/</link>
-      <pubDate>Fri, 10 May 2024 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/desi-beat/</guid>
-      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre: Rhythm-Based Music Game &lt;br&gt;&#xA;Platform: Mobile (Android) &lt;br&gt;&#xA;Technologies Used: Unity, C#, Audio Synchronization, Mobile Optimization &lt;br&gt;&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hungamagamestudio.desibeats&amp;hl=en_US&amp;gl=US&#34;&#xD;&#xA;style=&#34;color: blue; text-decoration: underline;&#34;&gt;&#xA;Play Store Link&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;For Desi Beats, a rhythm-based mobile game by Hungama Game Studio, I implemented optimizations that enhanced performance across diverse devices. My contributions also included integrating animations, sound effects, and user-friendly UI elements, and debugging and profiling performance to bolster stability. This work involved close collaboration with the team to refine the overall player experience, particularly focusing on interaction with Indian music tracks.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Song Beat</title>
-      <link>https://hrishikarora.github.io/song-beat/</link>
-      <pubDate>Sun, 19 Nov 2023 23:29:21 +0530</pubDate>
-      <guid>https://hrishikarora.github.io/song-beat/</guid>
-      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre: Rhythm-Based Music Game &lt;br&gt;&#xA;Platform: Mobile (Android) &lt;br&gt;&#xA;Technologies Used: Unity, C#, Audio Synchronization, Mobile Optimization &lt;br&gt;&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hungamagamestudio.sb&amp;hl=en_US&amp;gl=US&#34;&#xD;&#xA;style=&#34;color: blue; text-decoration: underline;&#34;&gt;&#xA;Play Store Link&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;For Song Beat, a rhythm-based mobile game by Hungama Game Studio, I implemented optimizations to enhance performance across diverse devices. My contributions also included integrating animations, sound effects, and user-friendly UI elements, and debugging and profiling performance to bolster stability. This work involved close collaboration with the team to refine the overall player experience.&lt;/p&gt;</description>
+      <title>Hexa Coin</title>
+      <link>hrishikarora.github.io/hexa-coin/</link>
+      <pubDate>Mon, 02 Jun 2025 22:53:58 +0530</pubDate>
+      <guid>hrishikarora.github.io/hexa-coin/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Genre: Puzzle based game &lt;br&gt;&#xA;Platform: Mobile (Android/IOS)&lt;br&gt;&#xA;Technologies Used: Unity, C#, Mobile Optimization&lt;br&gt;&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bbumgames.hexacoin&amp;hl=en_IN&#34;&gt;Play Store Link&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Improved Hexa Coin (Android, VOODOO), a live puzzle game with 100K+ downloads, by delivering 8+ post-launch updates that enhanced gameplay feel, progression, and user experience in collaboration with BeachBum and VOODOO teams. Implemented key systems like Revive, Hint, Target, and Quick Revive to boost re-engagement, while integrating Unity Addressables and VOODOO event tracking for dynamic asset loading, real-time economy monitoring, and seamless live content updates.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
