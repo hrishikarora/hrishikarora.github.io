@@ -284,7 +284,8 @@ export default function HomePage() {
           </h2>
           <p className="max-w-xl text-base text-ink/55">
             Most studios start with the audit or a single sprint, then move onto a retainer once
-            the update cycle becomes continuous.
+            the update cycle becomes continuous. Every engagement is fixed price and scoped before
+            it starts.
           </p>
 
           {/* Founding-client framing. The job of this block is to explain WHY the
@@ -300,13 +301,15 @@ export default function HomePage() {
             </p>
             <p className="text-sm leading-relaxed text-ink/70">
               What I am missing is three published case studies with my name on them. So the first
-              three studios I work with get roughly half the standard rate, and in return I write up
+              three studios I work with get a substantially reduced rate, and in return I write up
               what we built together, anonymised if your publisher needs it. Book at the founding
               rate and you keep it on any follow-on work, including the retainer.
             </p>
             <p className="text-sm leading-relaxed text-ink/70">
-              If the project cannot be written about at all, say so and I will quote it normally.
-              The discount buys the case study. The work is the same either way.
+              Everything is fixed price, agreed in writing before any work starts, so the number
+              you approve is the number you pay. Tell me the game and what is going wrong and
+              I will send a quote. If the project cannot be written about at all, say so and I
+              will quote it normally.
             </p>
           </div>
 
@@ -329,16 +332,16 @@ export default function HomePage() {
 
                 <p className="text-sm leading-relaxed text-ink/60">{offer.description}</p>
 
-                <div className="mt-auto flex flex-col gap-1 pt-2">
-                  <span className="text-sm text-ink/40">
-                    <s>{offer.standardPrice}</s> standard
+                <div className="mt-auto flex flex-col gap-3 pt-4">
+                  <span className="border-l-2 border-ink/15 pl-3 text-sm leading-relaxed text-ink/50">
+                    {offer.deliverable}
                   </span>
-                  <span className="font-display text-3xl font-semibold tracking-tight text-accent-text">
-                    {offer.foundingPrice}
-                    {offer.priceSuffix ? (
-                      <span className="text-base font-medium text-ink/45"> {offer.priceSuffix}</span>
-                    ) : null}
-                  </span>
+                  <a
+                    href={`mailto:hrishik.arora@gmail.com?subject=${encodeURIComponent(offer.title)}`}
+                    className="text-sm font-semibold text-accent-text transition hover:brightness-90"
+                  >
+                    Ask for a quote
+                  </a>
                 </div>
               </div>
             ))}
