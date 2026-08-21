@@ -6,15 +6,14 @@ export interface Offer {
   /** What the studio actually walks away with. Keeps the card concrete now
       that no price is shown. */
   deliverable: string
-  /** Draws the accent border. Used for the offer worth steering people toward. */
+  /** Draws the accent border. */
   featured?: boolean
 }
 
 /**
- * Prices are deliberately not published. The same work bills very differently
- * to an Indian studio and a US or EU one, and printing a rupee figure anchors
- * international buyers low before the conversation starts. Rates are quoted
- * per enquiry instead.
+ * Every engagement is scoped and priced per enquiry, since the work involved
+ * varies a lot by codebase, platform target and how much is already known
+ * about the problem.
  */
 export const offers: Offer[] = [
   {

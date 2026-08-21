@@ -12,8 +12,8 @@ import { process } from '@/lib/process'
 import { shipped, systems, type Project } from '@/lib/projects'
 
 /**
- * Steam-page logic: footage first, specifics second, proof third.
- * Nothing is hidden behind an interaction. Scrolling is the only verb.
+ * Footage first, specifics second, detail last. Nothing is hidden behind
+ * an interaction; scrolling is the only thing a visitor has to do.
  */
 
 function ShippedBand({ project, index }: { project: Project; index: number }) {
@@ -337,8 +337,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Qualification: a filter, so it sits before the thing it
-             filters rather than after it. ─────────────────────────────── */}
+      {/* ── Who this suits, placed before the offers ─────────────────── */}
       <section className="border-t border-ink/10 py-16 md:py-24">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2 md:px-10">
           <div className="flex flex-col gap-5">
@@ -398,8 +397,8 @@ export default function HomePage() {
             it starts.
           </p>
 
-          {/* Founding-client framing. The job of this block is to explain WHY the
-              rate is low, so it reads as a trade rather than as a quality signal. */}
+          {/* Terms of the founding client offer, set apart from the cards so
+              the conditions attached to it are not missed. */}
           <div className="flex max-w-3xl flex-col gap-4 border-l-2 border-accent bg-bg-raised/40 py-6 pl-6 pr-6">
             <span className="font-display text-base font-semibold tracking-tight text-accent-text">
               Founding client rate, first three studios
@@ -459,8 +458,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Mid-page CTA: catches anyone convinced by the offers before
-             they have to read the FAQ to get to the form. ─────────────── */}
+      {/* ── Contact prompt, directly after the offers ────────────────── */}
       <section className="border-t border-ink/10 bg-bg-raised/30 py-14">
         <div className="mx-auto flex max-w-6xl flex-col gap-5 px-6 md:flex-row md:items-center md:justify-between md:px-10">
           <div className="flex flex-col gap-2">

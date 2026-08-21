@@ -3,7 +3,7 @@ export interface FaqItem {
   answer: string
 }
 
-/** Answers the objections that otherwise stall a first email. */
+/** The questions that come up most before a first conversation. */
 export const faq: FaqItem[] = [
   {
     question: 'What do you need from me to quote?',

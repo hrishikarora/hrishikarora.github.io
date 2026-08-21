@@ -17,13 +17,13 @@ export interface Project {
   poster?: string
   /** Full case study content. Only set for published, shipped titles. */
   caseStudy?: CaseStudy
-  /** The one title that carries the whole pitch. Rendered with more weight. */
+  /** Rendered with more visual weight than the others. */
   featured?: boolean
   /** Short label shown above a featured title, e.g. what it proves. */
   featuredLabel?: string
 }
 
-/** Commercial, published titles. These carry the credibility, so they lead. */
+/** Commercial, published titles. */
 export const shipped: Project[] = [
   {
     slug: 'hexa-coin',
@@ -89,16 +89,15 @@ export const shipped: Project[] = [
 ]
 
 /**
- * Titles with a full written case study. Not every shipped title earns one:
- * a thin page sitting beside two detailed ones weakens both, so shorter
- * engagements stay as a card on the home page and are covered inside the
- * case study of the work they relate to.
+ * Titles with a full written case study. Shorter engagements stay as a card
+ * on the home page and are covered inside the case study of the work they
+ * relate to, rather than getting a page of their own.
  */
 export const caseStudies = shipped.filter(
   (project): project is Project & { caseStudy: CaseStudy } => project.caseStudy !== undefined
 )
 
-/** Personal systems work. Supporting evidence, deliberately secondary. */
+/** Personal systems work, built outside client engagements. */
 export const systems: Project[] = [
   {
     slug: 'delirium-odyssey',

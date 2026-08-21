@@ -7,9 +7,8 @@ export interface Role {
 }
 
 /**
- * Studio employment history. The video case studies cover the titles; this
- * covers the work that has no footage, most importantly the real-money
- * multiplayer card game, which is the only commercial multiplayer credential.
+ * Studio employment history. The video case studies cover the published
+ * titles; this covers the roles behind work that has no public footage.
  */
 export const roles: Role[] = [
   {

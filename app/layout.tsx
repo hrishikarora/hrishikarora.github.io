@@ -67,8 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             strategy="afterInteractive"
           />
         )}
-        {/* Sticky so the contact CTA stays one click away. The page runs ten
-            sections deep, and the form sits at the bottom of all of them. */}
+        {/* Sticky, so contact stays reachable from anywhere on a long page. */}
         <header className="sticky top-0 z-50 border-b border-ink/10 bg-bg/85 backdrop-blur">
           <div className="flex items-center justify-between px-6 py-4 md:px-10">
             <span className="font-display text-sm font-semibold tracking-tight">Hrishik Arora</span>

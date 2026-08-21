@@ -4,7 +4,7 @@ export interface ProcessStep {
   detail: string
 }
 
-/** Removes the "what actually happens if I email him" uncertainty. */
+/** What happens between a first email and work starting. */
 export const process: ProcessStep[] = [
   {
     step: '01',
