@@ -28,7 +28,7 @@ export const shipped: Project[] = [
     platform: 'Android',
     role: 'Live-service systems, live-ops',
     blurb:
-      'Hexa Coin is a puzzle game built by BeachBum Games and published by VOODOO. I worked on it at Cympl Studios, cross-team with both. I built the retention systems that bring a player back after they lose: Revive, Hint, Target, Quick Revive and Juicy Number/Text. I wired up Unity Addressables so content could ship without a store release, and VOODOO’s event tracking so the team could watch the economy live and A/B test changes to it. Eight-plus updates went out against a player base that passed 100,000 downloads.',
+      'Hexa Coin is a puzzle game built by BeachBum Games and published by VOODOO. I worked on it at Cympl Studios, cross-team with both. I built the systems that bring a player back after they lose instead of letting them churn: Revive, Hint, Target, Quick Revive and Juicy Number/Text. I also built content delivery so the team could push new content without shipping a whole new app version, and hooked up tracking so they could watch the in-game economy live and test changes to it rather than guess. Eight-plus updates went out against a player base that passed 100,000 downloads.',
     metrics: [
       { value: '100K+', label: 'downloads' },
       { value: '8+', label: 'live update cycles' },
@@ -41,7 +41,7 @@ export const shipped: Project[] = [
       problem:
         'Hexa Coin was already live under VOODOO with real players when I joined. The retention layer hadn’t been built yet. A player who failed a level had no reason to stay, and the team had no way to see what was happening to the in-game economy as it happened, only delayed reports after the fact.',
       approach:
-        'I built the systems that give a player a reason to reopen the app after a loss: Revive, Hint, Target, Quick Revive and Juicy Number/Text. Alongside those I set up Unity Addressables so content could ship without a full store release, and wired in VOODOO’s event tracking so the economy could be monitored live and economy changes could be A/B tested rather than guessed at.',
+        'I built the systems that give a player a reason to reopen the app after a loss: Revive, Hint, Target, Quick Revive and Juicy Number/Text. I set up content delivery so the team could push new content live without pushing a whole new build through store review, which is what makes a weekly update cycle possible at all. Built on Unity Addressables. I also wired in VOODOO’s event tracking, so changes to the economy could be measured against real player behaviour instead of argued about.',
       result:
         'Eight or more update cycles went out after that, each shipped against a live player base, so every change had to be measured and safe to roll back. The game has passed 100,000 downloads over that time. This is the work I now do for other studios running live titles.',
     },

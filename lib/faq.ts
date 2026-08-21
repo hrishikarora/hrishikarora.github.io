@@ -11,6 +11,21 @@ export const faq: FaqItem[] = [
       'The game, the devices it has to hold up on, and what is going wrong. If there is a build I can run, that helps. I will come back with a fixed price and a scope in writing, usually within two days.',
   },
   {
+    question: 'Can you work inside our existing codebase and team?',
+    answer:
+      'That is most of what I have done. Hexa Coin was a live codebase I joined after launch, working cross-team with the developer and the publisher. I work in Git, follow whatever branching and review process you already have, and I would rather match your conventions than impose mine.',
+  },
+  {
+    question: 'How quickly can you start?',
+    answer:
+      'I am freelancing full time and currently taking new work, so usually within a week of scope being agreed. An audit can often start sooner than a build, since it needs less setup on your side.',
+  },
+  {
+    question: 'What happens after the audit?',
+    answer:
+      'You get the report and you own it. Nothing obliges you to hire me for the fixes. Plenty of teams take the findings and do the work in-house, which is a fine outcome. If you do want me to implement them, we scope that separately from what the audit already told us.',
+  },
+  {
     question: 'What if the work takes longer than scoped?',
     answer:
       'That is my problem, not yours. Fixed price means the number you approve is the number you pay. If I underestimated, I absorb it. The only thing that changes the price is you changing the scope, and we would agree that in writing first.',
@@ -33,7 +48,7 @@ export const faq: FaqItem[] = [
   {
     question: 'Will the timezone be a problem?',
     answer:
-      'I am on IST. That overlaps most of the European working day and early US mornings. Outside that I work async and send written updates, so you are not waiting on a standup to find out where something stands.',
+      'I am on IST. That is a near-full working day with Istanbul and Tel Aviv, most of the day with the UK and mainland Europe, and early mornings with the US east coast. Outside those hours I work async and send written updates, so you are not waiting on a call to find out where something stands.',
   },
   {
     question: 'Do you take work on games that have not launched yet?',

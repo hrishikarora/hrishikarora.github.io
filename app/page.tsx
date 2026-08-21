@@ -92,10 +92,10 @@ export default function HomePage() {
               I ship, optimize, and maintain live mobile games.
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-ink/60">
-              Unity developer, freelance. I build the retention and live-ops systems that keep
-              live-service titles earning, and I make them run on low-end Android. I&rsquo;ve
-              worked on titles published by <span className="font-semibold text-ink">VOODOO</span>{' '}
-              and <span className="font-semibold text-ink">Hungama Game Studio</span>.
+              I help mobile studios fix performance problems and ship live-ops updates without
+              putting another full-time Unity engineer on payroll. I&rsquo;ve worked on titles
+              published by <span className="font-semibold text-ink">VOODOO</span> and{' '}
+              <span className="font-semibold text-ink">Hungama Game Studio</span>.
             </p>
 
             <div className="flex flex-wrap gap-x-12 gap-y-6 py-2">
@@ -103,7 +103,7 @@ export default function HomePage() {
                 <span className="font-display text-4xl font-semibold tracking-tight text-accent-text">
                   100K+
                 </span>
-                <span className="text-sm text-ink/45">downloads</span>
+                <span className="text-sm text-ink/45">downloads on Hexa Coin</span>
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-display text-4xl font-semibold tracking-tight text-accent-text">
@@ -119,12 +119,17 @@ export default function HomePage() {
               </div>
             </div>
 
+            <p className="max-w-xl border-l-2 border-ink/15 pl-4 text-base leading-relaxed text-ink/50">
+              For mobile studios with a live Unity game that needs performance work or a steady
+              update cycle, and no spare engineer to put on it.
+            </p>
+
             <div className="flex flex-wrap items-center gap-3">
               <a
-                href="mailto:hrishik.arora@gmail.com"
+                href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
                 className="bg-accent px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
               >
-                Hire me
+                Tell me what is going wrong
               </a>
               <a
                 href="#work"
@@ -217,10 +222,11 @@ export default function HomePage() {
               read about it.
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
-              I&rsquo;m based in India (IST) and work with studios in Europe and North America.
-              Overlap runs most of the European working day and early US mornings, and I work
-              async the rest of the time, with written updates so nobody has to chase me for
-              status.
+              I&rsquo;m based in India (IST) and work with studios across Europe, the Middle East
+              and North America. That is a near-full working day with Istanbul and Tel Aviv, most
+              of the day with the UK and mainland Europe, and early mornings with the US east
+              coast. Outside those hours I work async, with written updates so nobody has to chase
+              me for status.
             </p>
           </div>
         </div>
