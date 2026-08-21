@@ -17,6 +17,10 @@ export interface Project {
   poster?: string
   /** Full case study content. Only set for published, shipped titles. */
   caseStudy?: CaseStudy
+  /** The one title that carries the whole pitch. Rendered with more weight. */
+  featured?: boolean
+  /** Short label shown above a featured title, e.g. what it proves. */
+  featuredLabel?: string
 }
 
 /** Commercial, published titles. These carry the credibility, so they lead. */
@@ -37,6 +41,8 @@ export const shipped: Project[] = [
     tech: ['Unity', 'C#', 'Addressables', 'Live-ops', 'Event tracking'],
     video: '/video/hexa-coin.mp4',
     poster: '/images/hexa-coin-poster.jpg',
+    featured: true,
+    featuredLabel: 'Featured: live-ops and retention',
     caseStudy: {
       problem:
         'Hexa Coin was already live under VOODOO with real players when I joined. The retention layer hadn’t been built yet. A player who failed a level had no reason to stay, and the team had no way to see what was happening to the in-game economy as it happened, only delayed reports after the fact.',
@@ -72,9 +78,9 @@ export const shipped: Project[] = [
     title: 'Desibeats',
     publisher: 'Hungama Game Studio',
     platform: 'Android',
-    role: 'Performance contributor',
+    role: 'Performance and gameplay',
     blurb:
-      'Hungama’s second rhythm title, also worked on at Gameshastra. A shorter engagement: I carried over the optimization approach from Song Beat onto a heavier asset load and a wider device range, and helped integrate animations and audio. Covered in more detail in the Song Beat case study.',
+      'Hungama’s second rhythm title, also worked on at Gameshastra. I carried the optimization approach over from Song Beat onto a heavier asset load and a wider device range, and worked on the animation and audio integration. Covered in more detail in the Song Beat case study.',
     metrics: [],
     tech: ['Unity', 'C#'],
     video: '/video/desibeats.mp4',

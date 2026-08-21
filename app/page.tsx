@@ -5,6 +5,7 @@ import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
 import { education, roles, stack } from '@/lib/experience'
 import { faq } from '@/lib/faq'
 import { offers } from '@/lib/offers'
+import { process } from '@/lib/process'
 import { shipped, systems, type Project } from '@/lib/projects'
 
 /**
@@ -17,7 +18,11 @@ function ShippedBand({ project, index }: { project: Project; index: number }) {
   const flip = index % 2 === 1
 
   return (
-    <section className="relative overflow-hidden border-t border-ink/10 py-16 md:py-24">
+    <section
+      className={`relative overflow-hidden border-t py-16 md:py-24 ${
+        project.featured ? 'border-accent/30 bg-bg-raised/30' : 'border-ink/10'
+      }`}
+    >
       <div
         className={`mx-auto flex max-w-6xl flex-col gap-10 px-6 md:px-10 lg:gap-16 ${
           flip ? 'lg:flex-row-reverse' : 'lg:flex-row'
@@ -32,6 +37,11 @@ function ShippedBand({ project, index }: { project: Project; index: number }) {
 
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-3">
+            {project.featuredLabel && (
+              <span className="w-fit bg-accent px-2 py-0.5 text-[11px] font-semibold tracking-wide text-accent-ink">
+                {project.featuredLabel.toUpperCase()}
+              </span>
+            )}
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink/45">
               <span className="font-semibold text-ink/75">{project.publisher}</span>
               <span aria-hidden="true">·</span>
@@ -39,7 +49,11 @@ function ShippedBand({ project, index }: { project: Project; index: number }) {
               <span aria-hidden="true">·</span>
               <span>{project.role}</span>
             </div>
-            <h3 className="font-display text-3xl font-semibold tracking-tight md:text-5xl">
+            <h3
+              className={`font-display font-semibold tracking-tight ${
+                project.featured ? 'text-4xl md:text-6xl' : 'text-3xl md:text-5xl'
+              }`}
+            >
               {project.title}
             </h3>
           </div>
@@ -92,9 +106,10 @@ export default function HomePage() {
               I ship, optimize, and maintain live mobile games.
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-ink/60">
-              I help mobile studios fix performance problems and ship live-ops updates without
-              putting another full-time Unity engineer on payroll. I&rsquo;ve worked on titles
-              published by <span className="font-semibold text-ink">VOODOO</span> and{' '}
+              I build the retention and live-ops systems that keep live-service titles earning,
+              and I make them run on low-end Android. All of it without putting another full-time
+              engineer on your payroll. I&rsquo;ve worked on titles published by{' '}
+              <span className="font-semibold text-ink">VOODOO</span> and{' '}
               <span className="font-semibold text-ink">Hungama Game Studio</span>.
             </p>
 
@@ -120,8 +135,9 @@ export default function HomePage() {
             </div>
 
             <p className="max-w-xl border-l-2 border-ink/15 pl-4 text-base leading-relaxed text-ink/50">
-              For mobile studios with a live Unity game that needs performance work or a steady
-              update cycle, and no spare engineer to put on it.
+              Most of what I do sits after launch, where the game is already earning and a bad
+              change costs real money. For studios with a live Unity title and no spare engineer
+              to put on it.
             </p>
 
             <div className="flex flex-wrap items-center gap-3">
@@ -212,9 +228,7 @@ export default function HomePage() {
               I&rsquo;m a Unity developer with two-plus years on live mobile titles, across three
               studios, freelancing since the start of 2026. I kept Hexa Coin running under VOODOO,
               did the performance work on Hungama Game Studio&rsquo;s rhythm games, and built
-              real-time multiplayer and secure transaction systems for a card game under NDA. Most
-              of what I do sits after launch, where the game is already earning and a bad change
-              costs real money.
+              real-time multiplayer and secure transaction systems for a card game under NDA.
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
               Outside client work, I build systems on my own time: multiplayer netcode, combat,
@@ -284,6 +298,26 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── How it works ─────────────────────────────────────────────── */}
+      <section className="border-t border-ink/10 py-16 md:py-24">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
+          <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+            How it works
+          </h2>
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            {process.map((item) => (
+              <div key={item.step} className="flex flex-col gap-3 border-t border-ink/15 pt-4">
+                <span className="font-display text-sm font-semibold text-accent-text">
+                  {item.step}
+                </span>
+                <h3 className="font-display font-semibold tracking-tight">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-ink/55">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Offers ───────────────────────────────────────────────────── */}
       <section id="offers" className="border-t border-ink/10 py-16 md:py-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
@@ -303,15 +337,14 @@ export default function HomePage() {
               Founding client rate, first three studios
             </span>
             <p className="text-sm leading-relaxed text-ink/70">
-              These prices are set against my freelance track record, which is new. My engineering
-              record is longer: three commercial Android titles, eight live update cycles under
-              VOODOO, a player base past 100,000.
+              I&rsquo;m opening this to my first three independent studio clients at a reduced
+              rate, in exchange for permission to write the work up as a case study, anonymised if
+              your publisher needs it. The engineering and the deliverables are the same either
+              way.
             </p>
             <p className="text-sm leading-relaxed text-ink/70">
-              What I am missing is three published case studies with my name on them. So the first
-              three studios I work with get a substantially reduced rate, and in return I write up
-              what we built together, anonymised if your publisher needs it. Book at the founding
-              rate and you keep it on any follow-on work, including the retainer.
+              The founding rate covers the first engagement and any follow-on work agreed within
+              sixty days of it finishing.
             </p>
             <p className="text-sm leading-relaxed text-ink/70">
               Everything is fixed price, agreed in writing before any work starts, so the number
