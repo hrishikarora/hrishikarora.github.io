@@ -337,6 +337,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Qualification: a filter, so it sits before the thing it
+             filters rather than after it. ─────────────────────────────── */}
+      <section className="border-t border-ink/10 py-16 md:py-24">
+        <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2 md:px-10">
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+              A good fit if
+            </h2>
+            <ul className="flex flex-col gap-3">
+              {[
+                'Your game is already live, or close to it',
+                'It is built in Unity, shipping on Android',
+                'Performance on low-end devices actually costs you players',
+                'You need updates shipped and are short on engineering capacity',
+                'You would rather not carry another full-time salary to get it done',
+              ].map((item) => (
+                <li key={item} className="flex gap-3 text-base leading-relaxed text-ink/60">
+                  <span aria-hidden="true" className="text-accent-text">
+                    +
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+              Probably not a fit if
+            </h2>
+            <ul className="flex flex-col gap-3">
+              {[
+                'You want a game built from nothing, start to finish',
+                'You are looking for art, design or audio rather than engineering',
+                'You need someone on site, or in your timezone full time',
+                'The main thing you are comparing is hourly rate',
+              ].map((item) => (
+                <li key={item} className="flex gap-3 text-base leading-relaxed text-ink/45">
+                  <span aria-hidden="true" className="text-ink/30">
+                    &minus;
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* ── Offers ───────────────────────────────────────────────────── */}
       <section id="offers" className="border-t border-ink/10 py-16 md:py-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
@@ -410,51 +459,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Qualification ────────────────────────────────────────────── */}
-      <section className="border-t border-ink/10 py-16 md:py-24">
-        <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2 md:px-10">
-          <div className="flex flex-col gap-5">
-            <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
-              A good fit if
+      {/* ── Mid-page CTA: catches anyone convinced by the offers before
+             they have to read the FAQ to get to the form. ─────────────── */}
+      <section className="border-t border-ink/10 bg-bg-raised/30 py-14">
+        <div className="mx-auto flex max-w-6xl flex-col gap-5 px-6 md:flex-row md:items-center md:justify-between md:px-10">
+          <div className="flex flex-col gap-2">
+            <h2 className="font-display text-xl font-semibold tracking-tight md:text-2xl">
+              Know which one you need?
             </h2>
-            <ul className="flex flex-col gap-3">
-              {[
-                'Your game is already live, or close to it',
-                'It is built in Unity, shipping on Android',
-                'Performance on low-end devices actually costs you players',
-                'You need updates shipped and are short on engineering capacity',
-                'You would rather not carry another full-time salary to get it done',
-              ].map((item) => (
-                <li key={item} className="flex gap-3 text-base leading-relaxed text-ink/60">
-                  <span aria-hidden="true" className="text-accent-text">
-                    +
-                  </span>
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <p className="max-w-xl text-sm leading-relaxed text-ink/55">
+              Send me the game and the problem and I will come back with a fixed scope and price.
+            </p>
           </div>
-
-          <div className="flex flex-col gap-5">
-            <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
-              Probably not a fit if
-            </h2>
-            <ul className="flex flex-col gap-3">
-              {[
-                'You want a game built from nothing, start to finish',
-                'You are looking for art, design or audio rather than engineering',
-                'You need someone on site, or in your timezone full time',
-                'The main thing you are comparing is hourly rate',
-              ].map((item) => (
-                <li key={item} className="flex gap-3 text-base leading-relaxed text-ink/45">
-                  <span aria-hidden="true" className="text-ink/30">
-                    &minus;
-                  </span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <TrackedLink
+            href="#contact"
+            event="midpage-cta"
+            className="w-fit shrink-0 bg-accent px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
+          >
+            Ask for a quote
+          </TrackedLink>
         </div>
       </section>
 
@@ -496,7 +519,7 @@ export default function HomePage() {
                   external
                   className="border border-ink/20 px-5 py-3 text-sm font-semibold text-ink/80 transition hover:border-accent hover:text-ink"
                 >
-                  Book a 20 minute call
+                  Book a call
                 </TrackedLink>
                 <TrackedLink
                   href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
