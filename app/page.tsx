@@ -233,17 +233,26 @@ export default function HomePage() {
             the update cycle becomes continuous.
           </p>
 
-          {/* Founding-client framing: makes the current rate a deliberate trade for
-              published proof, and gives a clean reason to raise it after three. */}
-          <div className="flex flex-col gap-2 border-l-2 border-accent pl-5">
-            <span className="font-display text-sm font-semibold tracking-tight text-accent-text">
-              Founding client rate
+          {/* Founding-client framing. The job of this block is to explain WHY the
+              rate is low, so it reads as a trade rather than as a quality signal. */}
+          <div className="flex max-w-3xl flex-col gap-4 border-l-2 border-accent bg-bg-raised/40 py-6 pl-6 pr-6">
+            <span className="font-display text-base font-semibold tracking-tight text-accent-text">
+              Founding client rate, first three studios
             </span>
-            <p className="max-w-2xl text-sm leading-relaxed text-ink/60">
-              The rates below are open for my first three freelance engagements, in exchange for
-              being able to publish what we did together as a case study (anonymised if you need
-              it). After that they go up. If you want the work documented quietly instead, tell me
-              and we will price it normally.
+            <p className="text-sm leading-relaxed text-ink/70">
+              These prices are set against my freelance track record, which is new. My engineering
+              record is longer: three commercial Android titles, eight live update cycles under
+              VOODOO, a player base past 100,000.
+            </p>
+            <p className="text-sm leading-relaxed text-ink/70">
+              What I am missing is three published case studies with my name on them. So the first
+              three studios I work with get these rates, and in return I write up what we built
+              together, anonymised if your publisher needs it. Book at this rate and you keep it on
+              any follow-on work, including the retainer.
+            </p>
+            <p className="text-sm leading-relaxed text-ink/70">
+              If the project cannot be written about at all, say so and I will quote it normally.
+              The discount buys the case study. The work is the same either way.
             </p>
           </div>
 
