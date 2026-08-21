@@ -222,11 +222,11 @@ export default function HomePage() {
               read about it.
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
-              I&rsquo;m based in India (IST) and work with studios across Europe, the Middle East
-              and North America. That is a near-full working day with Istanbul and Tel Aviv, most
-              of the day with the UK and mainland Europe, and early mornings with the US east
-              coast. Outside those hours I work async, with written updates so nobody has to chase
-              me for status.
+              I&rsquo;m based in India (IST) and work with studios wherever they are. I shift my
+              hours to hold a real overlap with your working day, and I stay reachable outside
+              them when something is live: a release going out, a crash spike, anything that
+              cannot wait until tomorrow. The rest of the time I work async, with written updates
+              so nobody has to chase me for status.
             </p>
           </div>
         </div>

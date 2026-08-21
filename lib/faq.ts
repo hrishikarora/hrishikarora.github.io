@@ -48,7 +48,7 @@ export const faq: FaqItem[] = [
   {
     question: 'Will the timezone be a problem?',
     answer:
-      'I am on IST. That is a near-full working day with Istanbul and Tel Aviv, most of the day with the UK and mainland Europe, and early mornings with the US east coast. Outside those hours I work async and send written updates, so you are not waiting on a call to find out where something stands.',
+      'I am on IST, but I do not expect you to work around that. I shift my hours to hold a few hours of genuine overlap with your day, wherever you are, and I stay reachable outside them when something is actually live. Outside that I work async and send written updates, so you are not waiting on a call to find out where something stands.',
   },
   {
     question: 'Do you take work on games that have not launched yet?',
