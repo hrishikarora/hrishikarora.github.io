@@ -89,7 +89,8 @@ export default function HomePage() {
               I ship, optimize, and maintain live mobile games.
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-ink/60">
-              Unity gameplay programmer, freelance. Three commercial titles shipped with{' '}
+              Unity developer, freelance. I build the retention and live-ops systems that keep
+              live-service titles earning, and I make them run on low-end Android. Shipped with{' '}
               <span className="font-semibold text-ink">VOODOO</span> and{' '}
               <span className="font-semibold text-ink">Hungama Game Studio</span>.
             </p>
@@ -200,15 +201,22 @@ export default function HomePage() {
               About me
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
-              I&rsquo;m a Unity developer with three years of experience shipping mobile games.
+              I&rsquo;m a Unity developer with three years of experience on live mobile titles.
               I&rsquo;ve worked inside two different studio setups: on the team keeping Hexa Coin
               running under VOODOO, and contributing performance work to Hungama Game
-              Studio&rsquo;s rhythm games.
+              Studio&rsquo;s rhythm games. Most of what I do sits after launch, where the game is
+              already earning and a bad change costs real money.
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
               Outside client work, I build systems on my own time: multiplayer netcode, combat,
               pathfinding. It&rsquo;s how I actually learn a new corner of the engine, not just
-              read about it. Based in India, working with studios wherever they are.
+              read about it.
+            </p>
+            <p className="max-w-xl text-base leading-relaxed text-ink/60">
+              I&rsquo;m based in India (IST) and work with studios in Europe and North America.
+              Overlap runs most of the European working day and early US mornings, and I work
+              async the rest of the time, with written updates so nobody has to chase me for
+              status.
             </p>
           </div>
         </div>
@@ -220,7 +228,11 @@ export default function HomePage() {
           <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
             Ways to work with me
           </h2>
-          <div className="grid gap-6 md:grid-cols-2">
+          <p className="max-w-xl text-base text-ink/55">
+            Most studios start with the audit or a single sprint, then move onto a retainer once
+            the update cycle becomes continuous.
+          </p>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col gap-4 border border-ink/12 p-7">
               <span className="text-sm text-ink/45">One week · fixed price</span>
               <h3 className="font-display text-xl font-semibold tracking-tight">
@@ -247,6 +259,20 @@ export default function HomePage() {
                 ₹75,000
               </span>
             </div>
+            <div className="flex flex-col gap-4 border border-accent/40 p-7">
+              <span className="text-sm text-ink/45">Monthly · ongoing</span>
+              <h3 className="font-display text-xl font-semibold tracking-tight">
+                Live-ops retainer
+              </h3>
+              <p className="text-sm leading-relaxed text-ink/60">
+                Reserved capacity for studios running a continuous update cycle. Events, retention
+                systems, remote config and the performance work that keeps a live title stable.
+                One month minimum, then rolling.
+              </p>
+              <span className="font-display pt-2 text-2xl font-semibold tracking-tight text-accent-text">
+                ₹1,25,000<span className="text-base font-medium text-ink/45"> / month</span>
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -255,7 +281,7 @@ export default function HomePage() {
       <section id="contact" className="border-t border-ink/10 py-16 md:py-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 md:px-10">
           <h2 className="max-w-2xl font-display text-3xl font-semibold tracking-tight text-balance md:text-4xl">
-            Got a Unity build that needs to run better?
+            Running a live title that needs work?
           </h2>
           <p className="max-w-xl text-base leading-relaxed text-ink/60">
             Tell me the game, the devices it has to hold up on, and what is going wrong. I will

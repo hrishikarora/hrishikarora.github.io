@@ -26,24 +26,24 @@ export const shipped: Project[] = [
     title: 'Hexa Coin',
     publisher: 'VOODOO',
     platform: 'Android',
-    role: 'Gameplay programmer, live-ops',
+    role: 'Live-service systems, live-ops',
     blurb:
-      'Hexa Coin is a puzzle game built by BeachBum Games and published by VOODOO. I joined after launch and worked on the systems that kept players coming back: Revive, Hint, Target and Quick Revive. I also wired up Unity Addressables for dynamic asset loading and VOODOO’s event tracking for real-time economy monitoring. Eight-plus updates went out against a live player base that passed 100,000 downloads, so every change had to be measured and safe to roll back.',
+      'Hexa Coin is a puzzle game built by BeachBum Games and published by VOODOO. I joined after launch and built the retention systems that bring a player back after they lose: Revive, Hint, Target and Quick Revive. I wired up Unity Addressables so content could ship without a store release, and VOODOO’s event tracking so the team could watch the in-game economy in real time. Eight-plus updates went out against a live player base that passed 100,000 downloads.',
     metrics: [
       { value: '100K+', label: 'downloads' },
-      { value: '8+', label: 'post-launch updates' },
-      { value: '4', label: 'systems shipped' },
+      { value: '8+', label: 'live update cycles' },
+      { value: '4', label: 'retention systems shipped' },
     ],
-    tech: ['Unity', 'C#', 'Addressables', 'Live-ops'],
+    tech: ['Unity', 'C#', 'Addressables', 'Live-ops', 'Event tracking'],
     video: '/video/hexa-coin.mp4',
     poster: '/images/hexa-coin-poster.jpg',
     caseStudy: {
       problem:
-        'Hexa Coin was already live under VOODOO with real players when I joined. The systems that keep a puzzle game like this alive, the ones that bring a player back after they fail a level, hadn’t been built yet, and the team needed a way to actually see what was happening to the in-game economy in real time instead of guessing from delayed reports.',
+        'Hexa Coin was already live under VOODOO with real players when I joined. The retention layer hadn’t been built yet. A player who failed a level had no reason to stay, and the team had no way to see what was happening to the in-game economy as it happened, only delayed reports after the fact.',
       approach:
-        'I built Revive, Hint, Target and Quick Revive, the systems that give a player a reason to open the app again after a loss instead of closing it for good. Alongside that I set up Unity Addressables for dynamic asset loading, so content could update without a full app release, and wired in VOODOO’s event tracking to monitor the economy as it happened.',
+        'I built the systems that give a player a reason to reopen the app after a loss: Revive, Hint, Target and Quick Revive. Alongside those I set up Unity Addressables so content could ship without a full store release, and wired in VOODOO’s event tracking so the economy could be monitored live rather than reconstructed later.',
       result:
-        'Eight or more updates went out after that, each one shipped against a live player base, so every change had to be measured and safe to roll back if it didn’t work. The game has passed 100,000 downloads over that time.',
+        'Eight or more update cycles went out after that, each shipped against a live player base, so every change had to be measured and safe to roll back. The game has passed 100,000 downloads over that time. This is the work I now do for other studios running live titles.',
     },
   },
   {
