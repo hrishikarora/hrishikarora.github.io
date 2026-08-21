@@ -232,6 +232,21 @@ export default function HomePage() {
             Most studios start with the audit or a single sprint, then move onto a retainer once
             the update cycle becomes continuous.
           </p>
+
+          {/* Founding-client framing: makes the current rate a deliberate trade for
+              published proof, and gives a clean reason to raise it after three. */}
+          <div className="flex flex-col gap-2 border-l-2 border-accent pl-5">
+            <span className="font-display text-sm font-semibold tracking-tight text-accent-text">
+              Founding client rate
+            </span>
+            <p className="max-w-2xl text-sm leading-relaxed text-ink/60">
+              The rates below are open for my first three freelance engagements, in exchange for
+              being able to publish what we did together as a case study (anonymised if you need
+              it). After that they go up. If you want the work documented quietly instead, tell me
+              and we will price it normally.
+            </p>
+          </div>
+
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col gap-4 border border-ink/12 p-7">
               <span className="text-sm text-ink/45">One week · fixed price</span>
