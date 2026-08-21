@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { GameVideo } from '@/components/GameVideo'
 import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
+import { offers } from '@/lib/offers'
 import { shipped, systems, type Project } from '@/lib/projects'
 
 /**
@@ -246,9 +247,9 @@ export default function HomePage() {
             </p>
             <p className="text-sm leading-relaxed text-ink/70">
               What I am missing is three published case studies with my name on them. So the first
-              three studios I work with get these rates, and in return I write up what we built
-              together, anonymised if your publisher needs it. Book at this rate and you keep it on
-              any follow-on work, including the retainer.
+              three studios I work with get roughly half the standard rate, and in return I write up
+              what we built together, anonymised if your publisher needs it. Book at the founding
+              rate and you keep it on any follow-on work, including the retainer.
             </p>
             <p className="text-sm leading-relaxed text-ink/70">
               If the project cannot be written about at all, say so and I will quote it normally.
@@ -257,46 +258,37 @@ export default function HomePage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col gap-4 border border-ink/12 p-7">
-              <span className="text-sm text-ink/45">One week · fixed price</span>
-              <h3 className="font-display text-xl font-semibold tracking-tight">
-                Mobile performance audit
-              </h3>
-              <p className="text-sm leading-relaxed text-ink/60">
-                I profile your live Unity build on real low-end devices and hand back a ranked
-                list of what is costing you frames, memory and battery, plus the fix for each one.
-              </p>
-              <span className="font-display pt-2 text-2xl font-semibold tracking-tight text-accent-text">
-                ₹40,000
-              </span>
-            </div>
-            <div className="flex flex-col gap-4 border border-ink/12 p-7">
-              <span className="text-sm text-ink/45">Two weeks · fixed price</span>
-              <h3 className="font-display text-xl font-semibold tracking-tight">
-                Live-ops feature sprint
-              </h3>
-              <p className="text-sm leading-relaxed text-ink/60">
-                One agreed feature, built into your live game and shipped to store. The same kind
-                of cycle I ran on Hexa Coin, just scoped and priced before day one.
-              </p>
-              <span className="font-display pt-2 text-2xl font-semibold tracking-tight text-accent-text">
-                ₹75,000
-              </span>
-            </div>
-            <div className="flex flex-col gap-4 border border-accent/40 p-7">
-              <span className="text-sm text-ink/45">Monthly · ongoing</span>
-              <h3 className="font-display text-xl font-semibold tracking-tight">
-                Live-ops retainer
-              </h3>
-              <p className="text-sm leading-relaxed text-ink/60">
-                Reserved capacity for studios running a continuous update cycle. Events, retention
-                systems, remote config and the performance work that keeps a live title stable.
-                One month minimum, then rolling.
-              </p>
-              <span className="font-display pt-2 text-2xl font-semibold tracking-tight text-accent-text">
-                ₹1,25,000<span className="text-base font-medium text-ink/45"> / month</span>
-              </span>
-            </div>
+            {offers.map((offer) => (
+              <div
+                key={offer.slug}
+                className={`flex flex-col gap-4 border p-7 ${
+                  offer.featured ? 'border-accent/40' : 'border-ink/12'
+                }`}
+              >
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <span className="text-sm text-ink/45">{offer.cadence}</span>
+                  <span className="bg-accent px-2 py-0.5 text-[11px] font-semibold tracking-wide text-accent-ink">
+                    FIRST 3 STUDIOS
+                  </span>
+                </div>
+
+                <h3 className="font-display text-xl font-semibold tracking-tight">{offer.title}</h3>
+
+                <p className="text-sm leading-relaxed text-ink/60">{offer.description}</p>
+
+                <div className="mt-auto flex flex-col gap-1 pt-2">
+                  <span className="text-sm text-ink/40">
+                    <s>{offer.standardPrice}</s> standard
+                  </span>
+                  <span className="font-display text-3xl font-semibold tracking-tight text-accent-text">
+                    {offer.foundingPrice}
+                    {offer.priceSuffix ? (
+                      <span className="text-base font-medium text-ink/45"> {offer.priceSuffix}</span>
+                    ) : null}
+                  </span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
