@@ -13,6 +13,14 @@ export interface Role {
  */
 export const roles: Role[] = [
   {
+    company: 'Freelance',
+    location: 'Remote',
+    title: 'Unity developer',
+    period: 'Jan 2026 – present',
+    summary:
+      'Live-ops, retention systems and mobile performance work for studios running shipped titles. Available for new engagements now.',
+  },
+  {
     company: 'Cympl Studios',
     location: 'Pune',
     title: 'Game Programmer',
@@ -26,7 +34,7 @@ export const roles: Role[] = [
     title: 'Junior Game Developer',
     period: 'Jul 2024 – Oct 2024',
     summary:
-      'Full-stack work on a multiplayer real-money card game: gameplay mechanics, real-time player interaction, and RESTful APIs for live data sync and secure transactions, built to regulated-market standards.',
+      'Full-stack work on a multiplayer card game under NDA: gameplay mechanics, real-time player interaction, and RESTful APIs for live data sync and secure transactions, built to regulated-market standards.',
   },
   {
     company: 'Gameshastra',

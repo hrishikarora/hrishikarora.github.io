@@ -64,7 +64,7 @@ export const shipped: Project[] = [
       approach:
         'I profiled the build across that device range and worked through the optimizations that came out of it, object pooling among them, which cut the allocation churn that was causing hitches mid-track. Alongside the performance work I integrated animations, sound effects and UI elements, and kept profiling through the cycle to catch regressions before they shipped.',
       result:
-        'A 30% performance gain in testing, and playback held stable across the device tiers Hungama needed it to run on. This was the project where I built most of the profiling habits I still use today.',
+        'A 30% performance gain in testing, and playback held stable across the device tiers Hungama needed it to run on. Hungama then had me carry the same approach onto Desibeats, their second rhythm title, which had a heavier asset load and a wider device range. That is where I found out the approach held up past the game it was built for, and it is where most of the profiling habits I still use came from.',
     },
   },
   {
@@ -74,21 +74,23 @@ export const shipped: Project[] = [
     platform: 'Android',
     role: 'Performance contributor',
     blurb:
-      'Desibeats is Hungama’s second rhythm title, also worked on at Gameshastra. I contributed performance suggestions and helped integrate animations and audio, building on what I’d learned optimizing Song Beat.',
+      'Hungama’s second rhythm title, also worked on at Gameshastra. A shorter engagement: I carried over the optimization approach from Song Beat onto a heavier asset load and a wider device range, and helped integrate animations and audio. Covered in more detail in the Song Beat case study.',
     metrics: [],
     tech: ['Unity', 'C#'],
     video: '/video/desibeats.mp4',
     poster: '/images/desibeats-poster.jpg',
-    caseStudy: {
-      problem:
-        'Desibeats is Hungama’s second rhythm title, built on the same foundation as Song Beat but with its own asset load and its own set of target devices.',
-      approach:
-        'I carried over performance suggestions from what I’d learned on Song Beat and helped integrate animations and audio.',
-      result:
-        'A shorter engagement than Song Beat, but it’s where I found out the optimization approach held up past one game, not just the one it was built for.',
-    },
   },
 ]
+
+/**
+ * Titles with a full written case study. Not every shipped title earns one:
+ * a thin page sitting beside two detailed ones weakens both, so shorter
+ * engagements stay as a card on the home page and are covered inside the
+ * case study of the work they relate to.
+ */
+export const caseStudies = shipped.filter(
+  (project): project is Project & { caseStudy: CaseStudy } => project.caseStudy !== undefined
+)
 
 /** Personal systems work. Supporting evidence, deliberately secondary. */
 export const systems: Project[] = [

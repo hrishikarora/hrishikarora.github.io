@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
-import { shipped } from '@/lib/projects'
+import { caseStudies } from '@/lib/projects'
 
 export const dynamicParams = false
 
 export function generateStaticParams() {
-  return shipped.map((project) => ({ slug: project.slug }))
+  return caseStudies.map((project) => ({ slug: project.slug }))
 }
 
 export async function generateMetadata({
@@ -16,7 +16,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const project = shipped.find((p) => p.slug === slug)
+  const project = caseStudies.find((p) => p.slug === slug)
   if (!project) return {}
 
   return {
@@ -31,13 +31,14 @@ export default async function CaseStudyPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const index = shipped.findIndex((p) => p.slug === slug)
-  const project = shipped[index]
+  const index = caseStudies.findIndex((p) => p.slug === slug)
+  const project = caseStudies[index]
 
-  if (!project || !project.caseStudy) notFound()
+  if (!project) notFound()
 
-  // `shipped` is a fixed, non-empty array declared in lib/projects.ts.
-  const next = shipped[(index + 1) % shipped.length]!
+  // `caseStudies` is non-empty and `index` is valid, since generateStaticParams
+  // only ever emits slugs drawn from this same array.
+  const next = caseStudies[(index + 1) % caseStudies.length]!
 
   return (
     <>

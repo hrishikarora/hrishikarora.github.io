@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { GameVideo } from '@/components/GameVideo'
 import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
 import { education, roles, stack } from '@/lib/experience'
+import { faq } from '@/lib/faq'
 import { offers } from '@/lib/offers'
 import { shipped, systems, type Project } from '@/lib/projects'
 
@@ -204,10 +205,11 @@ export default function HomePage() {
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
               I&rsquo;m a Unity developer with two-plus years on live mobile titles, across three
-              studios. I kept Hexa Coin running under VOODOO, did the performance work on Hungama
-              Game Studio&rsquo;s rhythm games, and built a real-money multiplayer card game to
-              regulated-market standards. Most of what I do sits after launch, where the game is
-              already earning and a bad change costs real money.
+              studios, freelancing since the start of 2026. I kept Hexa Coin running under VOODOO,
+              did the performance work on Hungama Game Studio&rsquo;s rhythm games, and built
+              real-time multiplayer and secure transaction systems for a card game under NDA. Most
+              of what I do sits after launch, where the game is already earning and a bad change
+              costs real money.
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
               Outside client work, I build systems on my own time: multiplayer netcode, combat,
@@ -343,6 +345,23 @@ export default function HomePage() {
                     Ask for a quote
                   </a>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ──────────────────────────────────────────────────────── */}
+      <section className="border-t border-ink/10 py-16 md:py-24">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
+          <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+            Before you ask
+          </h2>
+          <div className="grid gap-x-16 gap-y-8 md:grid-cols-2">
+            {faq.map((item) => (
+              <div key={item.question} className="flex max-w-xl flex-col gap-2">
+                <h3 className="font-display font-semibold tracking-tight">{item.question}</h3>
+                <p className="text-sm leading-relaxed text-ink/60">{item.answer}</p>
               </div>
             ))}
           </div>
