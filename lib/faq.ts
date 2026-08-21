@@ -11,6 +11,11 @@ export const faq: FaqItem[] = [
       'The game, the devices it has to hold up on, and what is going wrong. If there is a build I can run, that helps. I will come back with a fixed price and a scope in writing, usually within two days.',
   },
   {
+    question: 'What exactly do I get from the audit?',
+    answer:
+      'A written report: the main things costing you frames, memory and battery, what is causing each one, and a prioritized list of fixes with effort estimates. Where it helps I include profiler captures and point at the specific systems worth opening. The report is yours whether I do the fixes or your team does.',
+  },
+  {
     question: 'Can you work inside our existing codebase and team?',
     answer:
       'That is most of what I have done. Hexa Coin was a live codebase I joined after launch, working cross-team with the developer and the publisher. I work in Git, follow whatever branching and review process you already have, and I would rather match your conventions than impose mine.',
@@ -18,17 +23,17 @@ export const faq: FaqItem[] = [
   {
     question: 'How quickly can you start?',
     answer:
-      'I am freelancing full time and currently taking new work, so usually within a week of scope being agreed. An audit can often start sooner than a build, since it needs less setup on your side.',
+      'I am freelancing full time and taking new work now, so usually within a week of the scope being agreed. Audits can often start sooner, since they need less setup on your side.',
   },
   {
     question: 'What happens after the audit?',
     answer:
-      'You get the report and you own it. Nothing obliges you to hire me for the fixes. Plenty of teams take the findings and do the work in-house, which is a fine outcome. If you do want me to implement them, we scope that separately from what the audit already told us.',
+      'You get the report and you own it. Nothing obliges you to hire me for the fixes. Some teams take the findings and do the work in-house, which is a perfectly good outcome. If you do want me to implement them, we scope that separately.',
   },
   {
     question: 'What if the work takes longer than scoped?',
     answer:
-      'That is my problem, not yours. Fixed price means the number you approve is the number you pay. If I underestimated, I absorb it. The only thing that changes the price is you changing the scope, and we would agree that in writing first.',
+      'Fixed price means the number you approve is the number you pay. If I underestimate the work, I absorb the difference. The only thing that changes the price is you changing the scope, and we would agree that in writing first.',
   },
   {
     question: 'How does payment work?',
@@ -38,17 +43,17 @@ export const faq: FaqItem[] = [
   {
     question: 'Do you sign NDAs?',
     answer:
-      'Yes, and I have worked under one before. Send yours over and I will sign it before we get into specifics. If you cannot have the work written up publicly, tell me and I will quote it outside the founding client offer.',
+      'Yes, and I have worked under one before. Send yours over and I will sign it before we get into specifics. If the work cannot be written up publicly at all, say so early and I will price it accordingly.',
   },
   {
-    question: 'What if it is not working out?',
+    question: 'How do we end an engagement?',
     answer:
-      'I would rather hear that early than let it run. Retainers are month to month with no lock-in. On fixed-scope work, the scope is agreed before day one specifically so this rarely comes up mid-build, but if priorities change we find a clean stopping point.',
+      'Retainers are month to month with no lock-in, so you give notice and we wind down cleanly. Fixed-scope work is agreed before day one specifically so this rarely comes up mid-build, but if priorities change we find a stopping point and I hand over everything in a state your team can pick up.',
   },
   {
     question: 'Will the timezone be a problem?',
     answer:
-      'I am on IST, but I do not expect you to work around that. I shift my hours to hold a few hours of genuine overlap with your day, wherever you are, and I stay reachable outside them when something is actually live. Outside that I work async and send written updates, so you are not waiting on a call to find out where something stands.',
+      'I am on IST, but I do not expect you to work around that. I shift my hours to hold a few hours of genuine overlap with your day, wherever you are. For urgent production problems I will make myself available outside those hours where I reasonably can, though it is not a 24/7 on-call arrangement, and I would say so plainly if you needed one. Outside that I work async and send written updates.',
   },
   {
     question: 'Do you take work on games that have not launched yet?',

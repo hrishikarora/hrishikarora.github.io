@@ -223,10 +223,10 @@ export default function HomePage() {
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
               I&rsquo;m based in India (IST) and work with studios wherever they are. I shift my
-              hours to hold a real overlap with your working day, and I stay reachable outside
-              them when something is live: a release going out, a crash spike, anything that
-              cannot wait until tomorrow. The rest of the time I work async, with written updates
-              so nobody has to chase me for status.
+              hours to hold a real overlap with your working day, and for urgent production
+              problems I will make myself available outside those hours where I reasonably can.
+              The rest of the time I work async, with written updates so nobody has to chase me
+              for status.
             </p>
           </div>
         </div>
@@ -361,7 +361,7 @@ export default function HomePage() {
       <section className="border-t border-ink/10 py-16 md:py-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
           <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
-            Before you ask
+            Before you hire me
           </h2>
           <div className="grid gap-x-16 gap-y-8 md:grid-cols-2">
             {faq.map((item) => (
