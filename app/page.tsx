@@ -140,19 +140,34 @@ export default function HomePage() {
               to put on it.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3">
-              <a
-                href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
-                className="bg-accent px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
-              >
-                Tell me what is going wrong
-              </a>
-              <a
-                href="#work"
-                className="border border-ink/20 px-6 py-3.5 text-sm text-ink/75 transition hover:border-ink/40 hover:text-ink"
-              >
-                See the work
-              </a>
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-wrap items-center gap-3">
+                <a
+                  href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
+                  className="bg-accent px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
+                >
+                  Tell me what is going wrong
+                </a>
+                <a
+                  href="#work"
+                  className="border border-ink/20 px-6 py-3.5 text-sm text-ink/75 transition hover:border-ink/40 hover:text-ink"
+                >
+                  See the work
+                </a>
+              </div>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-ink/45">
+                <span className="flex items-center gap-2">
+                  <span
+                    aria-hidden="true"
+                    className="inline-block h-2 w-2 rounded-full bg-accent"
+                  />
+                  Taking new work now
+                </span>
+                <span aria-hidden="true" className="text-ink/20">
+                  ·
+                </span>
+                <span>I reply within 24 hours</span>
+              </div>
             </div>
           </div>
 
@@ -466,11 +481,14 @@ export default function HomePage() {
             tell you straight whether I am the right person for it.
           </p>
           <a
-            href="mailto:hrishik.arora@gmail.com"
+            href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
             className="bg-accent w-fit px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
           >
             hrishik.arora@gmail.com
           </a>
+          <span className="text-sm text-ink/45">
+            I reply within 24 hours, and I will tell you if it is not something I should take on.
+          </span>
         </div>
       </section>
     </>
