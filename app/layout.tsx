@@ -13,17 +13,21 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: TITLE,
   description: DESCRIPTION,
-  // Images come from app/opengraph-image.tsx, generated at build time.
+  // Served as a real .png from public/, not Next's extensionless generated
+  // route: GitHub Pages types files by extension, and social crawlers reject
+  // an image sent as application/octet-stream.
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
     url: SITE_URL,
     type: 'profile',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: TITLE }],
   },
   twitter: {
     card: 'summary_large_image',
     title: TITLE,
     description: DESCRIPTION,
+    images: ['/og.png'],
   },
 }
 
