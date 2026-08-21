@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
+import { TrackedLink } from '@/components/TrackedLink'
 import { caseStudies } from '@/lib/projects'
 
 export const dynamicParams = false
@@ -122,12 +123,13 @@ export default async function CaseStudyPage({
               <p className="text-sm leading-relaxed text-ink/60">
                 Have a live game that needs this kind of work?
               </p>
-              <a
-                href="mailto:hrishik.arora@gmail.com"
+              <TrackedLink
+                href={`mailto:hrishik.arora@gmail.com?subject=${encodeURIComponent(project.title)}`}
+                event={`case-study-cta-${project.slug}`}
                 className="w-fit bg-accent px-5 py-2.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
               >
                 Get in touch
-              </a>
+              </TrackedLink>
             </div>
           </div>
         </div>

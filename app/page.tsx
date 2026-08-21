@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { ContactForm } from '@/components/ContactForm'
 import { GameVideo } from '@/components/GameVideo'
 import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
+import { TrackedLink } from '@/components/TrackedLink'
+import { CAL_URL } from '@/lib/analytics'
 import { education, roles, stack } from '@/lib/experience'
 import { faq } from '@/lib/faq'
 import { offers } from '@/lib/offers'
@@ -142,12 +145,13 @@ export default function HomePage() {
 
             <div className="flex flex-col gap-4">
               <div className="flex flex-wrap items-center gap-3">
-                <a
-                  href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
+                <TrackedLink
+                  href="#contact"
+                  event="hero-cta"
                   className="bg-accent px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
                 >
                   Tell me what is going wrong
-                </a>
+                </TrackedLink>
                 <a
                   href="#work"
                   className="border border-ink/20 px-6 py-3.5 text-sm text-ink/75 transition hover:border-ink/40 hover:text-ink"
@@ -392,12 +396,13 @@ export default function HomePage() {
                   <span className="border-l-2 border-ink/15 pl-3 text-sm leading-relaxed text-ink/50">
                     {offer.deliverable}
                   </span>
-                  <a
+                  <TrackedLink
                     href={`mailto:hrishik.arora@gmail.com?subject=${encodeURIComponent(offer.title)}`}
+                    event={`offer-quote-${offer.slug}`}
                     className="text-sm font-semibold text-accent-text transition hover:brightness-90"
                   >
                     Ask for a quote
-                  </a>
+                  </TrackedLink>
                 </div>
               </div>
             ))}
@@ -472,23 +477,39 @@ export default function HomePage() {
 
       {/* ── Contact ──────────────────────────────────────────────────── */}
       <section id="contact" className="border-t border-ink/10 py-16 md:py-24">
-        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 md:px-10">
-          <h2 className="max-w-2xl font-display text-3xl font-semibold tracking-tight text-balance md:text-4xl">
-            Running a live title that needs work?
-          </h2>
-          <p className="max-w-xl text-base leading-relaxed text-ink/60">
-            Tell me the game, the devices it has to hold up on, and what is going wrong. I will
-            tell you straight whether I am the right person for it.
-          </p>
-          <a
-            href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
-            className="bg-accent w-fit px-6 py-3.5 text-sm font-semibold text-accent-ink transition hover:brightness-95"
-          >
-            hrishik.arora@gmail.com
-          </a>
-          <span className="text-sm text-ink/45">
-            I reply within 24 hours, and I will tell you if it is not something I should take on.
-          </span>
+        <div className="mx-auto grid max-w-6xl gap-12 px-6 md:px-10 lg:grid-cols-2 lg:gap-20">
+          <div className="flex flex-col gap-6">
+            <h2 className="max-w-xl font-display text-3xl font-semibold tracking-tight text-balance md:text-4xl">
+              Running a live title that needs work?
+            </h2>
+            <p className="max-w-xl text-base leading-relaxed text-ink/60">
+              Tell me the game, the devices it has to hold up on, and what is going wrong. I will
+              tell you straight whether I am the right person for it.
+            </p>
+
+            <div className="flex flex-col gap-3 border-t border-ink/10 pt-6">
+              <span className="text-sm text-ink/45">Rather not use a form?</span>
+              <div className="flex flex-wrap gap-x-6 gap-y-2">
+                <TrackedLink
+                  href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
+                  event="contact-email"
+                  className="text-sm font-semibold text-accent-text transition hover:brightness-90"
+                >
+                  hrishik.arora@gmail.com
+                </TrackedLink>
+                <TrackedLink
+                  href={CAL_URL}
+                  event="contact-book-call"
+                  external
+                  className="text-sm text-ink/70 transition hover:text-ink"
+                >
+                  Book a call instead
+                </TrackedLink>
+              </div>
+            </div>
+          </div>
+
+          <ContactForm />
         </div>
       </section>
     </>
