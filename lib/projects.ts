@@ -28,11 +28,11 @@ export const shipped: Project[] = [
     platform: 'Android',
     role: 'Live-service systems, live-ops',
     blurb:
-      'Hexa Coin is a puzzle game built by BeachBum Games and published by VOODOO. I joined after launch and built the retention systems that bring a player back after they lose: Revive, Hint, Target and Quick Revive. I wired up Unity Addressables so content could ship without a store release, and VOODOO’s event tracking so the team could watch the in-game economy in real time. Eight-plus updates went out against a live player base that passed 100,000 downloads.',
+      'Hexa Coin is a puzzle game built by BeachBum Games and published by VOODOO. I worked on it at Cympl Studios, cross-team with both. I built the retention systems that bring a player back after they lose: Revive, Hint, Target, Quick Revive and Juicy Number/Text. I wired up Unity Addressables so content could ship without a store release, and VOODOO’s event tracking so the team could watch the economy live and A/B test changes to it. Eight-plus updates went out against a player base that passed 100,000 downloads.',
     metrics: [
       { value: '100K+', label: 'downloads' },
       { value: '8+', label: 'live update cycles' },
-      { value: '4', label: 'retention systems shipped' },
+      { value: '5', label: 'retention systems shipped' },
     ],
     tech: ['Unity', 'C#', 'Addressables', 'Live-ops', 'Event tracking'],
     video: '/video/hexa-coin.mp4',
@@ -41,7 +41,7 @@ export const shipped: Project[] = [
       problem:
         'Hexa Coin was already live under VOODOO with real players when I joined. The retention layer hadn’t been built yet. A player who failed a level had no reason to stay, and the team had no way to see what was happening to the in-game economy as it happened, only delayed reports after the fact.',
       approach:
-        'I built the systems that give a player a reason to reopen the app after a loss: Revive, Hint, Target and Quick Revive. Alongside those I set up Unity Addressables so content could ship without a full store release, and wired in VOODOO’s event tracking so the economy could be monitored live rather than reconstructed later.',
+        'I built the systems that give a player a reason to reopen the app after a loss: Revive, Hint, Target, Quick Revive and Juicy Number/Text. Alongside those I set up Unity Addressables so content could ship without a full store release, and wired in VOODOO’s event tracking so the economy could be monitored live and economy changes could be A/B tested rather than guessed at.',
       result:
         'Eight or more update cycles went out after that, each shipped against a live player base, so every change had to be measured and safe to roll back. The game has passed 100,000 downloads over that time. This is the work I now do for other studios running live titles.',
     },
@@ -53,18 +53,18 @@ export const shipped: Project[] = [
     platform: 'Android',
     role: 'Performance optimization',
     blurb:
-      'Song Beat is a rhythm game by Hungama Game Studio. I worked on performance across a wide spread of Android devices, plus animations, sound effects and UI polish. Most of the job was profiling and debugging until playback stayed stable on hardware well below flagship spec.',
-    metrics: [],
-    tech: ['Unity', 'C#', 'Profiler'],
+      'Song Beat is a rhythm game by Hungama Game Studio, which I worked on at Gameshastra. I handled performance across a wide spread of Android devices, plus animations, sound effects and UI. Object pooling and the optimization work around it produced a 30% performance gain in testing.',
+    metrics: [{ value: '30%', label: 'performance gain in testing' }],
+    tech: ['Unity', 'C#', 'Profiler', 'Object pooling'],
     video: '/video/song-beat.mp4',
     poster: '/images/song-beat-poster.jpg',
     caseStudy: {
       problem:
         'Song Beat is a rhythm game, so the whole experience depends on staying responsive frame to frame. It had to run across a wide spread of Android hardware, most of it well below flagship spec, and on that kind of hardware performance problems show up immediately as missed beats and stuttering animation.',
       approach:
-        'I profiled the build across that device range and worked through the optimizations that came out of it. Alongside the performance work, I integrated animations, sound effects and UI elements, and kept debugging and profiling through the cycle to catch regressions before they shipped.',
+        'I profiled the build across that device range and worked through the optimizations that came out of it, object pooling among them, which cut the allocation churn that was causing hitches mid-track. Alongside the performance work I integrated animations, sound effects and UI elements, and kept profiling through the cycle to catch regressions before they shipped.',
       result:
-        'Playback held stable across the device tiers Hungama needed it to run on. This was the project where I built most of the profiling habits I still use today.',
+        'A 30% performance gain in testing, and playback held stable across the device tiers Hungama needed it to run on. This was the project where I built most of the profiling habits I still use today.',
     },
   },
   {
@@ -74,7 +74,7 @@ export const shipped: Project[] = [
     platform: 'Android',
     role: 'Performance contributor',
     blurb:
-      'Desibeats is Hungama’s second rhythm title. I contributed performance suggestions and helped integrate animations and audio, building on what I’d learned optimizing Song Beat.',
+      'Desibeats is Hungama’s second rhythm title, also worked on at Gameshastra. I contributed performance suggestions and helped integrate animations and audio, building on what I’d learned optimizing Song Beat.',
     metrics: [],
     tech: ['Unity', 'C#'],
     video: '/video/desibeats.mp4',

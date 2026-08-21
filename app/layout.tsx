@@ -7,7 +7,7 @@ import './globals.css'
 const SITE_URL = 'https://hrishikarora.github.io'
 const TITLE = 'Hrishik Arora, Unity live-ops and mobile performance'
 const DESCRIPTION =
-  'Unity developer for live-service mobile games. Retention systems, live-ops and low-end Android performance. Shipped with VOODOO and Hungama Game Studio, including eight or more live update cycles on a title past 100,000 downloads.'
+  'Unity developer for live-service mobile games. Retention systems, live-ops and low-end Android performance. Worked on titles published by VOODOO and Hungama Game Studio, including eight or more live update cycles on a title past 100,000 downloads.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

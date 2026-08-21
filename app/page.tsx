@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { GameVideo } from '@/components/GameVideo'
 import { PhoneVideoBleed } from '@/components/PhoneVideoBleed'
+import { education, roles, stack } from '@/lib/experience'
 import { offers } from '@/lib/offers'
 import { shipped, systems, type Project } from '@/lib/projects'
 
@@ -91,9 +92,9 @@ export default function HomePage() {
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-ink/60">
               Unity developer, freelance. I build the retention and live-ops systems that keep
-              live-service titles earning, and I make them run on low-end Android. Shipped with{' '}
-              <span className="font-semibold text-ink">VOODOO</span> and{' '}
-              <span className="font-semibold text-ink">Hungama Game Studio</span>.
+              live-service titles earning, and I make them run on low-end Android. I&rsquo;ve
+              worked on titles published by <span className="font-semibold text-ink">VOODOO</span>{' '}
+              and <span className="font-semibold text-ink">Hungama Game Studio</span>.
             </p>
 
             <div className="flex flex-wrap gap-x-12 gap-y-6 py-2">
@@ -202,10 +203,10 @@ export default function HomePage() {
               About me
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
-              I&rsquo;m a Unity developer with three years of experience on live mobile titles.
-              I&rsquo;ve worked inside two different studio setups: on the team keeping Hexa Coin
-              running under VOODOO, and contributing performance work to Hungama Game
-              Studio&rsquo;s rhythm games. Most of what I do sits after launch, where the game is
+              I&rsquo;m a Unity developer with two-plus years on live mobile titles, across three
+              studios. I kept Hexa Coin running under VOODOO, did the performance work on Hungama
+              Game Studio&rsquo;s rhythm games, and built a real-money multiplayer card game to
+              regulated-market standards. Most of what I do sits after launch, where the game is
               already earning and a bad change costs real money.
             </p>
             <p className="max-w-xl text-base leading-relaxed text-ink/60">
@@ -219,6 +220,58 @@ export default function HomePage() {
               async the rest of the time, with written updates so nobody has to chase me for
               status.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Studio experience ────────────────────────────────────────── */}
+      <section className="border-t border-ink/10 py-16 md:py-24">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
+          <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+            Studio experience
+          </h2>
+
+          <div className="flex flex-col">
+            {roles.map((role) => (
+              <div
+                key={role.company}
+                className="flex flex-col gap-2 border-t border-ink/10 py-6 md:flex-row md:gap-10"
+              >
+                <div className="flex shrink-0 flex-col gap-1 md:w-64">
+                  <span className="font-display font-semibold tracking-tight">{role.company}</span>
+                  <span className="text-sm text-ink/45">
+                    {role.title} · {role.location}
+                  </span>
+                  <span className="text-sm text-ink/35">{role.period}</span>
+                </div>
+                <p className="max-w-2xl text-sm leading-relaxed text-ink/60">{role.summary}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex flex-col gap-6 border-t border-ink/10 pt-8 md:flex-row md:gap-16">
+            <div className="flex flex-col gap-3">
+              <span className="text-sm text-ink/45">Stack</span>
+              <div className="flex max-w-2xl flex-wrap gap-2">
+                {stack.map((item) => (
+                  <span
+                    key={item}
+                    className="border border-ink/10 px-2.5 py-1 text-xs text-ink/50"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="flex shrink-0 flex-col gap-3">
+              <span className="text-sm text-ink/45">Education</span>
+              <div className="flex flex-col gap-1">
+                <span className="text-sm text-ink/70">{education.degree}</span>
+                <span className="text-sm text-ink/45">
+                  {education.institution}, {education.year}
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
