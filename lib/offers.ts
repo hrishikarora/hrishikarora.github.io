@@ -38,8 +38,8 @@ export const offers: Offer[] = [
     cadence: 'Monthly, rolling',
     title: 'Live-ops retainer',
     description:
-      'Reserved capacity for studios running a continuous update cycle. Events, retention systems, remote config and the performance work that keeps a live title stable.',
-    deliverable: 'Booked capacity each month, one month minimum, then rolling',
+      'A block of my week reserved for you each month, for studios running a continuous update cycle. Events, retention systems, remote config and the performance work that keeps a live title stable. We agree what the month covers before it starts, and you get priority on anything urgent.',
+    deliverable: 'An agreed number of days per month, one month minimum, then rolling',
     featured: true,
   },
 ]

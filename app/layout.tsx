@@ -13,24 +13,49 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: TITLE,
   description: DESCRIPTION,
+  // Images come from app/opengraph-image.tsx, generated at build time.
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
     url: SITE_URL,
-    images: ['/images/hexa-coin-poster.jpg'],
+    type: 'profile',
   },
   twitter: {
     card: 'summary_large_image',
     title: TITLE,
     description: DESCRIPTION,
-    images: ['/images/hexa-coin-poster.jpg'],
   },
+}
+
+/** Helps search engines connect the name, the role and the studios. */
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Hrishik Arora',
+  url: SITE_URL,
+  jobTitle: 'Unity developer, live-ops and mobile performance',
+  email: 'mailto:hrishik.arora@gmail.com',
+  address: { '@type': 'PostalAddress', addressCountry: 'IN' },
+  sameAs: ['https://www.linkedin.com/in/hrishikarora/'],
+  knowsAbout: [
+    'Unity',
+    'Mobile game performance optimization',
+    'Live-ops',
+    'Player retention systems',
+    'Android',
+    'C#',
+  ],
+  alumniOf: { '@type': 'CollegeOrUniversity', name: 'Medi-Caps University' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${publicSans.variable}`}>
       <body className="min-h-screen bg-bg font-sans text-ink antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
         {GOATCOUNTER_CODE && (
           <Script
             data-goatcounter={`https://${GOATCOUNTER_CODE}.goatcounter.com/count`}

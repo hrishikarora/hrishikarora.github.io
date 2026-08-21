@@ -390,6 +390,54 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Qualification ────────────────────────────────────────────── */}
+      <section className="border-t border-ink/10 py-16 md:py-24">
+        <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2 md:px-10">
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+              A good fit if
+            </h2>
+            <ul className="flex flex-col gap-3">
+              {[
+                'Your game is already live, or close to it',
+                'It is built in Unity, shipping on Android',
+                'Performance on low-end devices actually costs you players',
+                'You need updates shipped and are short on engineering capacity',
+                'You would rather not carry another full-time salary to get it done',
+              ].map((item) => (
+                <li key={item} className="flex gap-3 text-base leading-relaxed text-ink/60">
+                  <span aria-hidden="true" className="text-accent-text">
+                    +
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-2xl font-semibold tracking-tight md:text-3xl">
+              Probably not a fit if
+            </h2>
+            <ul className="flex flex-col gap-3">
+              {[
+                'You want a game built from nothing, start to finish',
+                'You are looking for art, design or audio rather than engineering',
+                'You need someone on site, or in your timezone full time',
+                'The main thing you are comparing is hourly rate',
+              ].map((item) => (
+                <li key={item} className="flex gap-3 text-base leading-relaxed text-ink/45">
+                  <span aria-hidden="true" className="text-ink/30">
+                    &minus;
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* ── FAQ ──────────────────────────────────────────────────────── */}
       <section className="border-t border-ink/10 py-16 md:py-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:px-10">
