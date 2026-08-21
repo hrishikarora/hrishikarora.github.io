@@ -67,22 +67,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             strategy="afterInteractive"
           />
         )}
-        <header className="flex items-center justify-between px-6 py-5 md:px-10">
-          <span className="font-display text-sm font-semibold tracking-tight">Hrishik Arora</span>
-          <nav className="flex items-center gap-6 text-sm text-ink/45">
-            <a href="#work" className="transition hover:text-ink">
-              Work
-            </a>
-            <a href="#about" className="transition hover:text-ink">
-              About
-            </a>
-            <a href="#offers" className="transition hover:text-ink">
-              Offers
-            </a>
-            <a href="#contact" className="transition hover:text-ink">
-              Contact
-            </a>
-          </nav>
+        {/* Sticky so the contact CTA stays one click away. The page runs ten
+            sections deep, and the form sits at the bottom of all of them. */}
+        <header className="sticky top-0 z-50 border-b border-ink/10 bg-bg/85 backdrop-blur">
+          <div className="flex items-center justify-between px-6 py-4 md:px-10">
+            <span className="font-display text-sm font-semibold tracking-tight">Hrishik Arora</span>
+            <nav className="flex items-center gap-5 text-sm text-ink/45 md:gap-6">
+              <a href="#work" className="hidden transition hover:text-ink sm:inline">
+                Work
+              </a>
+              <a href="#about" className="hidden transition hover:text-ink sm:inline">
+                About
+              </a>
+              <a href="#offers" className="hidden transition hover:text-ink sm:inline">
+                Offers
+              </a>
+              <a
+                href="#contact"
+                className="bg-accent px-4 py-2 text-sm font-semibold text-accent-ink transition hover:brightness-95"
+              >
+                Get in touch
+              </a>
+            </nav>
+          </div>
         </header>
         <main>{children}</main>
         <footer className="border-t border-ink/10 px-6 py-8 md:px-10">

@@ -69,6 +69,18 @@ export function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-2">
+        <label htmlFor="interest" className="text-sm text-ink/45">
+          What you are after
+        </label>
+        <select id="interest" name="interest" defaultValue="not-sure" className={FIELD_CLASS}>
+          <option value="not-sure">Not sure yet, want to talk it through</option>
+          <option value="audit">Mobile performance audit</option>
+          <option value="sprint">Live-ops feature sprint</option>
+          <option value="retainer">Live-ops retainer</option>
+        </select>
+      </div>
+
+      <div className="flex flex-col gap-2">
         <label htmlFor="game" className="text-sm text-ink/45">
           The game, and what it runs on
         </label>

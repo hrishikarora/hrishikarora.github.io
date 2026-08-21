@@ -397,7 +397,7 @@ export default function HomePage() {
                     {offer.deliverable}
                   </span>
                   <TrackedLink
-                    href={`mailto:hrishik.arora@gmail.com?subject=${encodeURIComponent(offer.title)}`}
+                    href="#contact"
                     event={`offer-quote-${offer.slug}`}
                     className="text-sm font-semibold text-accent-text transition hover:brightness-90"
                   >
@@ -487,23 +487,23 @@ export default function HomePage() {
               tell you straight whether I am the right person for it.
             </p>
 
-            <div className="flex flex-col gap-3 border-t border-ink/10 pt-6">
+            <div className="flex flex-col gap-4 border-t border-ink/10 pt-6">
               <span className="text-sm text-ink/45">Rather not use a form?</span>
-              <div className="flex flex-wrap gap-x-6 gap-y-2">
-                <TrackedLink
-                  href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
-                  event="contact-email"
-                  className="text-sm font-semibold text-accent-text transition hover:brightness-90"
-                >
-                  hrishik.arora@gmail.com
-                </TrackedLink>
+              <div className="flex flex-wrap gap-3">
                 <TrackedLink
                   href={CAL_URL}
                   event="contact-book-call"
                   external
-                  className="text-sm text-ink/70 transition hover:text-ink"
+                  className="border border-ink/20 px-5 py-3 text-sm font-semibold text-ink/80 transition hover:border-accent hover:text-ink"
                 >
-                  Book a call instead
+                  Book a 20 minute call
+                </TrackedLink>
+                <TrackedLink
+                  href="mailto:hrishik.arora@gmail.com?subject=Unity%20game%20problem"
+                  event="contact-email"
+                  className="border border-ink/20 px-5 py-3 text-sm font-semibold text-ink/80 transition hover:border-accent hover:text-ink"
+                >
+                  Email me directly
                 </TrackedLink>
               </div>
             </div>
