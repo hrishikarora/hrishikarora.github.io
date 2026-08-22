@@ -10,6 +10,7 @@ import { faq } from '@/lib/faq'
 import { offers } from '@/lib/offers'
 import { process } from '@/lib/process'
 import { shipped, systems, type Project } from '@/lib/projects'
+import { testimonials } from '@/lib/testimonials'
 
 /**
  * Footage first, specifics second, detail last. Nothing is hidden behind
@@ -191,6 +192,36 @@ export default function HomePage() {
           <ShippedBand key={project.slug} project={project} index={i} />
         ))}
       </div>
+
+      {/* ── Testimonial, straight after the work it refers to ────────── */}
+      <section className="border-t border-ink/10 bg-bg-raised/30 py-16 md:py-20">
+        <div className="mx-auto max-w-4xl px-6 md:px-10">
+          {testimonials.map((t) => (
+            <figure key={t.name} className="flex flex-col gap-6">
+              <blockquote className="font-display text-xl leading-relaxed tracking-tight text-ink/85 md:text-2xl">
+                &ldquo;{t.quote}&rdquo;
+              </blockquote>
+              <figcaption className="flex flex-col gap-1 border-l-2 border-accent pl-4">
+                <span className="font-semibold">
+                  {t.url ? (
+                    <a
+                      href={t.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-accent-text"
+                    >
+                      {t.name}
+                    </a>
+                  ) : (
+                    t.name
+                  )}
+                </span>
+                <span className="text-sm text-ink/50">{t.title}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
 
       {/* ── Secondary evidence ───────────────────────────────────────── */}
       <section className="border-t border-ink/10 py-16 md:py-24">
